@@ -18,6 +18,8 @@ AnimationClass ac = new AnimationClass();
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel2 = new javax.swing.JPanel();
+        jLabel25 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         painelMenu1 = new javax.swing.JPanel();
         logo1 = new javax.swing.JLabel();
@@ -47,7 +49,7 @@ AnimationClass ac = new AnimationClass();
         panelNP = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
-        jPanel2 = new javax.swing.JPanel();
+        colorBtn1 = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
@@ -71,10 +73,111 @@ AnimationClass ac = new AnimationClass();
         jLabel11 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jTextField3 = new javax.swing.JTextField();
-        jLabel10 = new javax.swing.JLabel();
         jScrollPane3 = new javax.swing.JScrollPane();
         table2 = new javaswingdev.swing.table.Table();
         jButton2 = new javax.swing.JButton();
+        areaLanche = new javax.swing.JInternalFrame();
+        panelLanche = new javax.swing.JPanel();
+        fotoVP1 = new javax.swing.JPanel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jTextField4 = new javax.swing.JTextField();
+        jButton3 = new javax.swing.JButton();
+        jLabel13 = new javax.swing.JLabel();
+        jTextField5 = new javax.swing.JTextField();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jTextField6 = new javax.swing.JTextField();
+        jButton4 = new javax.swing.JButton();
+        colorBtn4 = new javax.swing.JPanel();
+        jButton5 = new javax.swing.JButton();
+        colorBtn5 = new javax.swing.JPanel();
+        jButton6 = new javax.swing.JButton();
+        colorBtn6 = new javax.swing.JPanel();
+        jSeparator3 = new javax.swing.JSeparator();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        table3 = new javaswingdev.swing.table.Table();
+        areaIngredientes = new javax.swing.JInternalFrame();
+        panelIngredientes = new javax.swing.JPanel();
+        fotoVP2 = new javax.swing.JPanel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jTextField7 = new javax.swing.JTextField();
+        jButton7 = new javax.swing.JButton();
+        jLabel17 = new javax.swing.JLabel();
+        jTextField8 = new javax.swing.JTextField();
+        jLabel18 = new javax.swing.JLabel();
+        jButton8 = new javax.swing.JButton();
+        colorBtn7 = new javax.swing.JPanel();
+        jButton9 = new javax.swing.JButton();
+        colorBtn8 = new javax.swing.JPanel();
+        jButton10 = new javax.swing.JButton();
+        colorBtn9 = new javax.swing.JPanel();
+        jSeparator4 = new javax.swing.JSeparator();
+        jScrollPane5 = new javax.swing.JScrollPane();
+        table4 = new javaswingdev.swing.table.Table();
+        areaProdutoEstoque = new javax.swing.JInternalFrame();
+        panelPE = new javax.swing.JPanel();
+        fotoVP3 = new javax.swing.JPanel();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        jTextField9 = new javax.swing.JTextField();
+        jButton11 = new javax.swing.JButton();
+        jLabel21 = new javax.swing.JLabel();
+        jTextField10 = new javax.swing.JTextField();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        jTextField11 = new javax.swing.JTextField();
+        jButton12 = new javax.swing.JButton();
+        colorBtn12 = new javax.swing.JPanel();
+        jButton13 = new javax.swing.JButton();
+        colorBtn13 = new javax.swing.JPanel();
+        jButton14 = new javax.swing.JButton();
+        colorBtn14 = new javax.swing.JPanel();
+        jSeparator5 = new javax.swing.JSeparator();
+        jScrollPane6 = new javax.swing.JScrollPane();
+        table5 = new javaswingdev.swing.table.Table();
+        jTextField12 = new javax.swing.JTextField();
+        jLabel24 = new javax.swing.JLabel();
+        areaEntradas = new javax.swing.JInternalFrame();
+        panelEntradas = new javax.swing.JPanel();
+        jLabel26 = new javax.swing.JLabel();
+        jTextField13 = new javax.swing.JTextField();
+        jButton15 = new javax.swing.JButton();
+        jLabel27 = new javax.swing.JLabel();
+        jTextField14 = new javax.swing.JTextField();
+        jLabel28 = new javax.swing.JLabel();
+        jButton16 = new javax.swing.JButton();
+        colorBtn15 = new javax.swing.JPanel();
+        jButton17 = new javax.swing.JButton();
+        colorBtn16 = new javax.swing.JPanel();
+        jButton18 = new javax.swing.JButton();
+        colorBtn17 = new javax.swing.JPanel();
+        jSeparator6 = new javax.swing.JSeparator();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        table6 = new javaswingdev.swing.table.Table();
+        jTextField16 = new javax.swing.JTextField();
+        jLabel30 = new javax.swing.JLabel();
+        areaEntradas_entrada = new javax.swing.JInternalFrame();
+        panelEntradas1 = new javax.swing.JPanel();
+        jLabel29 = new javax.swing.JLabel();
+        jTextField15 = new javax.swing.JTextField();
+        jButton19 = new javax.swing.JButton();
+        jLabel31 = new javax.swing.JLabel();
+        jTextField17 = new javax.swing.JTextField();
+        jLabel32 = new javax.swing.JLabel();
+        jButton21 = new javax.swing.JButton();
+        colorBtn19 = new javax.swing.JPanel();
+        jButton22 = new javax.swing.JButton();
+        colorBtn20 = new javax.swing.JPanel();
+        jTextField18 = new javax.swing.JTextField();
+        jLabel33 = new javax.swing.JLabel();
+        jLabel34 = new javax.swing.JLabel();
+        jTextField19 = new javax.swing.JTextField();
+        jTextField20 = new javax.swing.JTextField();
+        jLabel35 = new javax.swing.JLabel();
+        jLabel36 = new javax.swing.JLabel();
+        jTextField21 = new javax.swing.JTextField();
         base = new javax.swing.JInternalFrame();
         panelVP1 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
@@ -83,6 +186,25 @@ AnimationClass ac = new AnimationClass();
         setMaximumSize(new java.awt.Dimension(1920, 1020));
         setUndecorated(true);
         setResizable(false);
+
+        jLabel25.setText("Sub");
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(134, 134, 134)
+                .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(328, Short.MAX_VALUE))
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(172, 172, 172)
+                .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(204, Short.MAX_VALUE))
+        );
 
         jPanel1.setMaximumSize(new java.awt.Dimension(1920, 1020));
         jPanel1.setMinimumSize(new java.awt.Dimension(1920, 1040));
@@ -461,30 +583,31 @@ AnimationClass ac = new AnimationClass();
         panelNP.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 100, 100, 30));
 
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(40, 40, 40));
+        jButton1.setForeground(new java.awt.Color(109, 109, 109));
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/check mark.png"))); // NOI18N
         jButton1.setText("FINALIZAR");
         jButton1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
         jButton1.setContentAreaFilled(false);
         jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jButton1.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         jButton1.setRequestFocusEnabled(false);
         panelNP.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 50, 129, 40));
 
-        jPanel2.setBackground(new java.awt.Color(117, 166, 119));
+        colorBtn1.setBackground(new java.awt.Color(117, 166, 119));
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout colorBtn1Layout = new javax.swing.GroupLayout(colorBtn1);
+        colorBtn1.setLayout(colorBtn1Layout);
+        colorBtn1Layout.setHorizontalGroup(
+            colorBtn1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 10, Short.MAX_VALUE)
         );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        colorBtn1Layout.setVerticalGroup(
+            colorBtn1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 40, Short.MAX_VALUE)
         );
 
-        panelNP.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 50, 10, 40));
+        panelNP.add(colorBtn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 50, 10, 40));
 
         jLabel6.setFont(new java.awt.Font("Segoe UI Semibold", 1, 20)); // NOI18N
         jLabel6.setText("Ficha Técnica");
@@ -533,7 +656,6 @@ AnimationClass ac = new AnimationClass();
         table1.setShowGrid(true);
         jScrollPane2.setViewportView(table1);
         if (table1.getColumnModel().getColumnCount() > 0) {
-            table1.getColumnModel().getColumn(0).setResizable(false);
             table1.getColumnModel().getColumn(1).setResizable(false);
             table1.getColumnModel().getColumn(2).setResizable(false);
         }
@@ -671,10 +793,6 @@ AnimationClass ac = new AnimationClass();
         jTextField3.setOpaque(true);
         panelVP.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 130, 188, 45));
 
-        jLabel10.setFont(new java.awt.Font("Segoe UI Semibold", 1, 20)); // NOI18N
-        jLabel10.setText("Ficha Técnica");
-        panelVP.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 360, 160, 30));
-
         table1.fixTable(jScrollPane3);
         table2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -698,16 +816,18 @@ AnimationClass ac = new AnimationClass();
         table2.setShowGrid(true);
         jScrollPane3.setViewportView(table2);
         if (table2.getColumnModel().getColumnCount() > 0) {
-            table2.getColumnModel().getColumn(0).setResizable(false);
             table2.getColumnModel().getColumn(1).setResizable(false);
             table2.getColumnModel().getColumn(2).setResizable(false);
             table2.getColumnModel().getColumn(3).setResizable(false);
             table2.getColumnModel().getColumn(4).setResizable(false);
+            table2.getColumnModel().getColumn(4).setHeaderValue("Valor Unt.");
             table2.getColumnModel().getColumn(5).setResizable(false);
+            table2.getColumnModel().getColumn(5).setHeaderValue("Valor Total Venda");
             table2.getColumnModel().getColumn(6).setResizable(false);
+            table2.getColumnModel().getColumn(6).setHeaderValue("Data");
         }
 
-        panelVP.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 400, 1160, 450));
+        panelVP.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 360, 1160, 450));
 
         jButton2.setText("OK");
         jButton2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
@@ -718,6 +838,954 @@ AnimationClass ac = new AnimationClass();
         areaVisualizarPedidos.getContentPane().add(panelVP, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1610, 1000));
 
         areaPrincipal.add(areaVisualizarPedidos, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -30, 1610, 1025));
+
+        areaLanche.setBackground(new java.awt.Color(255, 255, 255));
+        areaLanche.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
+        areaLanche.setMaximumSize(new java.awt.Dimension(1702, 1070));
+        areaLanche.setMinimumSize(new java.awt.Dimension(1702, 1070));
+        areaLanche.setPreferredSize(new java.awt.Dimension(1702, 1070));
+        areaLanche.setVisible(true);
+        areaLanche.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        panelLanche.setBackground(new java.awt.Color(255, 255, 255));
+        panelLanche.setMaximumSize(new java.awt.Dimension(1690, 1020));
+        panelLanche.setMinimumSize(new java.awt.Dimension(1690, 1020));
+        panelLanche.setPreferredSize(new java.awt.Dimension(1690, 1020));
+        panelLanche.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel12.setFont(new java.awt.Font("Segoe UI Black", 1, 36)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel12.setText("FOTO");
+        jLabel12.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        javax.swing.GroupLayout fotoVP1Layout = new javax.swing.GroupLayout(fotoVP1);
+        fotoVP1.setLayout(fotoVP1Layout);
+        fotoVP1Layout.setHorizontalGroup(
+            fotoVP1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, fotoVP1Layout.createSequentialGroup()
+                .addContainerGap(66, Short.MAX_VALUE)
+                .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(61, 61, 61))
+        );
+        fotoVP1Layout.setVerticalGroup(
+            fotoVP1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(fotoVP1Layout.createSequentialGroup()
+                .addGap(78, 78, 78)
+                .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(92, Short.MAX_VALUE))
+        );
+
+        panelLanche.add(fotoVP1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 50, 240, 240));
+
+        jLabel4.setBackground(new java.awt.Color(103, 103, 103));
+        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/lupa 2.png"))); // NOI18N
+        jLabel4.setOpaque(true);
+        panelLanche.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, 40, 45));
+
+        jTextField4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jTextField4.setName(""); // NOI18N
+        panelLanche.add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, 100, 45));
+
+        jButton3.setText("OK");
+        jButton3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jButton3.setContentAreaFilled(false);
+        jButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        panelLanche.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 50, 47, 45));
+
+        jLabel13.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
+        jLabel13.setText("id");
+        panelLanche.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 100, 30));
+
+        jTextField5.setEditable(false);
+        jTextField5.setBackground(new java.awt.Color(243, 243, 243));
+        jTextField5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jTextField5.setName(""); // NOI18N
+        jTextField5.setOpaque(true);
+        panelLanche.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 170, 188, 45));
+
+        jLabel14.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
+        jLabel14.setText("Produto/Lanche");
+        panelLanche.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, 180, 30));
+
+        jLabel15.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
+        jLabel15.setText("Preço de venda (R$)");
+        panelLanche.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 220, 180, 30));
+
+        jTextField6.setEditable(false);
+        jTextField6.setBackground(new java.awt.Color(243, 243, 243));
+        jTextField6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jTextField6.setName(""); // NOI18N
+        jTextField6.setOpaque(true);
+        panelLanche.add(jTextField6, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 250, 140, 45));
+
+        jButton4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton4.setForeground(new java.awt.Color(109, 109, 109));
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/adicionar.png"))); // NOI18N
+        jButton4.setText("NOVO");
+        jButton4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jButton4.setContentAreaFilled(false);
+        jButton4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jButton4.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jButton4.setIconTextGap(5);
+        jButton4.setRequestFocusEnabled(false);
+        panelLanche.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 50, 129, 40));
+
+        colorBtn4.setBackground(new java.awt.Color(90, 90, 90));
+
+        javax.swing.GroupLayout colorBtn4Layout = new javax.swing.GroupLayout(colorBtn4);
+        colorBtn4.setLayout(colorBtn4Layout);
+        colorBtn4Layout.setHorizontalGroup(
+            colorBtn4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 10, Short.MAX_VALUE)
+        );
+        colorBtn4Layout.setVerticalGroup(
+            colorBtn4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        panelLanche.add(colorBtn4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 50, 10, 40));
+
+        jButton5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton5.setForeground(new java.awt.Color(109, 109, 109));
+        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/editar.png"))); // NOI18N
+        jButton5.setText("EDITAR");
+        jButton5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jButton5.setContentAreaFilled(false);
+        jButton5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jButton5.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jButton5.setIconTextGap(5);
+        jButton5.setRequestFocusEnabled(false);
+        panelLanche.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 100, 129, 40));
+
+        colorBtn5.setBackground(new java.awt.Color(218, 151, 21));
+
+        javax.swing.GroupLayout colorBtn5Layout = new javax.swing.GroupLayout(colorBtn5);
+        colorBtn5.setLayout(colorBtn5Layout);
+        colorBtn5Layout.setHorizontalGroup(
+            colorBtn5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 10, Short.MAX_VALUE)
+        );
+        colorBtn5Layout.setVerticalGroup(
+            colorBtn5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        panelLanche.add(colorBtn5, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 100, 10, 40));
+
+        jButton6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton6.setForeground(new java.awt.Color(109, 109, 109));
+        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/excluir.png"))); // NOI18N
+        jButton6.setText("EXCLUIR");
+        jButton6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jButton6.setContentAreaFilled(false);
+        jButton6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton6.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jButton6.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jButton6.setIconTextGap(5);
+        jButton6.setRequestFocusEnabled(false);
+        panelLanche.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 150, 129, 40));
+
+        colorBtn6.setBackground(new java.awt.Color(207, 131, 131));
+
+        javax.swing.GroupLayout colorBtn6Layout = new javax.swing.GroupLayout(colorBtn6);
+        colorBtn6.setLayout(colorBtn6Layout);
+        colorBtn6Layout.setHorizontalGroup(
+            colorBtn6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 10, Short.MAX_VALUE)
+        );
+        colorBtn6Layout.setVerticalGroup(
+            colorBtn6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        panelLanche.add(colorBtn6, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 150, 10, 40));
+        panelLanche.add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, 1570, 30));
+
+        table1.fixTable(jScrollPane4);
+        table3.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {"1", "hamburguer", "11,00", "..."},
+                {"2", "x-burguer duplo", "16,00", "..."}
+            },
+            new String [] {
+                "id ", "Lanche", "Preço Venda", "Descrição"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, true, true
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        table3.setShowGrid(true);
+        jScrollPane4.setViewportView(table3);
+        if (table3.getColumnModel().getColumnCount() > 0) {
+            table3.getColumnModel().getColumn(0).setResizable(false);
+            table3.getColumnModel().getColumn(0).setHeaderValue("id_AI");
+            table3.getColumnModel().getColumn(1).setResizable(false);
+            table3.getColumnModel().getColumn(2).setResizable(false);
+            table3.getColumnModel().getColumn(3).setResizable(false);
+        }
+
+        panelLanche.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 360, 1160, 450));
+
+        areaLanche.getContentPane().add(panelLanche, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1610, 1000));
+
+        areaPrincipal.add(areaLanche, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -30, 1610, 1025));
+
+        areaIngredientes.setBackground(new java.awt.Color(255, 255, 255));
+        areaIngredientes.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
+        areaIngredientes.setMaximumSize(new java.awt.Dimension(1702, 1070));
+        areaIngredientes.setMinimumSize(new java.awt.Dimension(1702, 1070));
+        areaIngredientes.setPreferredSize(new java.awt.Dimension(1702, 1070));
+        areaIngredientes.setVisible(true);
+        areaIngredientes.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        panelIngredientes.setBackground(new java.awt.Color(255, 255, 255));
+        panelIngredientes.setMaximumSize(new java.awt.Dimension(1690, 1020));
+        panelIngredientes.setMinimumSize(new java.awt.Dimension(1690, 1020));
+        panelIngredientes.setPreferredSize(new java.awt.Dimension(1690, 1020));
+        panelIngredientes.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel16.setFont(new java.awt.Font("Segoe UI Black", 1, 36)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel16.setText("FOTO");
+        jLabel16.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        javax.swing.GroupLayout fotoVP2Layout = new javax.swing.GroupLayout(fotoVP2);
+        fotoVP2.setLayout(fotoVP2Layout);
+        fotoVP2Layout.setHorizontalGroup(
+            fotoVP2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, fotoVP2Layout.createSequentialGroup()
+                .addContainerGap(66, Short.MAX_VALUE)
+                .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(61, 61, 61))
+        );
+        fotoVP2Layout.setVerticalGroup(
+            fotoVP2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(fotoVP2Layout.createSequentialGroup()
+                .addGap(78, 78, 78)
+                .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(92, Short.MAX_VALUE))
+        );
+
+        panelIngredientes.add(fotoVP2, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 50, 240, 240));
+
+        jLabel10.setBackground(new java.awt.Color(103, 103, 103));
+        jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/lupa 2.png"))); // NOI18N
+        jLabel10.setOpaque(true);
+        panelIngredientes.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, 40, 45));
+
+        jTextField7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jTextField7.setName(""); // NOI18N
+        panelIngredientes.add(jTextField7, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, 100, 45));
+
+        jButton7.setText("OK");
+        jButton7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jButton7.setContentAreaFilled(false);
+        jButton7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        panelIngredientes.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 50, 47, 45));
+
+        jLabel17.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
+        jLabel17.setText("id");
+        panelIngredientes.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 100, 30));
+
+        jTextField8.setEditable(false);
+        jTextField8.setBackground(new java.awt.Color(243, 243, 243));
+        jTextField8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jTextField8.setName(""); // NOI18N
+        jTextField8.setOpaque(true);
+        panelIngredientes.add(jTextField8, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 130, 188, 45));
+
+        jLabel18.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
+        jLabel18.setText("Ingrediente");
+        panelIngredientes.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, 180, 30));
+
+        jButton8.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton8.setForeground(new java.awt.Color(109, 109, 109));
+        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/adicionar.png"))); // NOI18N
+        jButton8.setText("NOVO");
+        jButton8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jButton8.setContentAreaFilled(false);
+        jButton8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton8.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jButton8.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jButton8.setIconTextGap(5);
+        jButton8.setRequestFocusEnabled(false);
+        panelIngredientes.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 50, 129, 40));
+
+        colorBtn7.setBackground(new java.awt.Color(90, 90, 90));
+
+        javax.swing.GroupLayout colorBtn7Layout = new javax.swing.GroupLayout(colorBtn7);
+        colorBtn7.setLayout(colorBtn7Layout);
+        colorBtn7Layout.setHorizontalGroup(
+            colorBtn7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 10, Short.MAX_VALUE)
+        );
+        colorBtn7Layout.setVerticalGroup(
+            colorBtn7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        panelIngredientes.add(colorBtn7, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 50, 10, 40));
+
+        jButton9.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton9.setForeground(new java.awt.Color(109, 109, 109));
+        jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/editar.png"))); // NOI18N
+        jButton9.setText("EDITAR");
+        jButton9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jButton9.setContentAreaFilled(false);
+        jButton9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton9.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jButton9.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jButton9.setIconTextGap(5);
+        jButton9.setRequestFocusEnabled(false);
+        panelIngredientes.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 100, 129, 40));
+
+        colorBtn8.setBackground(new java.awt.Color(218, 151, 21));
+
+        javax.swing.GroupLayout colorBtn8Layout = new javax.swing.GroupLayout(colorBtn8);
+        colorBtn8.setLayout(colorBtn8Layout);
+        colorBtn8Layout.setHorizontalGroup(
+            colorBtn8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 10, Short.MAX_VALUE)
+        );
+        colorBtn8Layout.setVerticalGroup(
+            colorBtn8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        panelIngredientes.add(colorBtn8, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 100, 10, 40));
+
+        jButton10.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton10.setForeground(new java.awt.Color(109, 109, 109));
+        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/excluir.png"))); // NOI18N
+        jButton10.setText("EXCLUIR");
+        jButton10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jButton10.setContentAreaFilled(false);
+        jButton10.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton10.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jButton10.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jButton10.setIconTextGap(5);
+        jButton10.setRequestFocusEnabled(false);
+        panelIngredientes.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 150, 129, 40));
+
+        colorBtn9.setBackground(new java.awt.Color(207, 131, 131));
+
+        javax.swing.GroupLayout colorBtn9Layout = new javax.swing.GroupLayout(colorBtn9);
+        colorBtn9.setLayout(colorBtn9Layout);
+        colorBtn9Layout.setHorizontalGroup(
+            colorBtn9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 10, Short.MAX_VALUE)
+        );
+        colorBtn9Layout.setVerticalGroup(
+            colorBtn9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        panelIngredientes.add(colorBtn9, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 150, 10, 40));
+        panelIngredientes.add(jSeparator4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, 1570, 30));
+
+        table1.fixTable(jScrollPane5);
+        table4.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {"1", "pao de hamburguer", "20", "1", "un", "1,00"},
+                {"2", "hamburguer", "20", "1", "un", "1,52"},
+                {"3", "ovo", "20", "1", "un", "0,83"},
+                {"4", "queijo fatiado", "0,2", "0,01", "kg", "0,38"},
+                {"5", "bacon fatiado", "0,2", "0,01", "kg", "0,36"},
+                {"6", "alface", "0,6", "0,03", "pes", "0,18"},
+                {"7", "batata palha", "0,2", "0,01", "kg", "0,28"},
+                {"8", "embalagens p/ hamburguer", "20", "10", "un", "1,05"}
+            },
+            new String [] {
+                "id ", "Ingrediente", "Qnt. Minima", "Qnt. Unt", "Und. Medida", "Custo Unt."
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        table4.setShowGrid(true);
+        jScrollPane5.setViewportView(table4);
+        if (table4.getColumnModel().getColumnCount() > 0) {
+            table4.getColumnModel().getColumn(0).setResizable(false);
+            table4.getColumnModel().getColumn(1).setResizable(false);
+            table4.getColumnModel().getColumn(2).setResizable(false);
+            table4.getColumnModel().getColumn(3).setResizable(false);
+            table4.getColumnModel().getColumn(4).setResizable(false);
+            table4.getColumnModel().getColumn(5).setResizable(false);
+        }
+
+        panelIngredientes.add(jScrollPane5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 360, 1160, 450));
+
+        areaIngredientes.getContentPane().add(panelIngredientes, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1610, 1000));
+
+        areaPrincipal.add(areaIngredientes, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -30, 1610, 1025));
+
+        areaProdutoEstoque.setBackground(new java.awt.Color(255, 255, 255));
+        areaProdutoEstoque.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
+        areaProdutoEstoque.setMaximumSize(new java.awt.Dimension(1702, 1070));
+        areaProdutoEstoque.setMinimumSize(new java.awt.Dimension(1702, 1070));
+        areaProdutoEstoque.setPreferredSize(new java.awt.Dimension(1702, 1070));
+        areaProdutoEstoque.setVisible(true);
+        areaProdutoEstoque.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        panelPE.setBackground(new java.awt.Color(255, 255, 255));
+        panelPE.setMaximumSize(new java.awt.Dimension(1690, 1020));
+        panelPE.setMinimumSize(new java.awt.Dimension(1690, 1020));
+        panelPE.setPreferredSize(new java.awt.Dimension(1690, 1020));
+        panelPE.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel19.setFont(new java.awt.Font("Segoe UI Black", 1, 36)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel19.setText("FOTO");
+        jLabel19.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        javax.swing.GroupLayout fotoVP3Layout = new javax.swing.GroupLayout(fotoVP3);
+        fotoVP3.setLayout(fotoVP3Layout);
+        fotoVP3Layout.setHorizontalGroup(
+            fotoVP3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, fotoVP3Layout.createSequentialGroup()
+                .addContainerGap(66, Short.MAX_VALUE)
+                .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(61, 61, 61))
+        );
+        fotoVP3Layout.setVerticalGroup(
+            fotoVP3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(fotoVP3Layout.createSequentialGroup()
+                .addGap(78, 78, 78)
+                .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(92, Short.MAX_VALUE))
+        );
+
+        panelPE.add(fotoVP3, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 50, 240, 240));
+
+        jLabel20.setBackground(new java.awt.Color(103, 103, 103));
+        jLabel20.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/lupa 2.png"))); // NOI18N
+        jLabel20.setOpaque(true);
+        panelPE.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, 40, 45));
+
+        jTextField9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jTextField9.setName(""); // NOI18N
+        panelPE.add(jTextField9, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, 260, 45));
+
+        jButton11.setText("OK");
+        jButton11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jButton11.setContentAreaFilled(false);
+        jButton11.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        panelPE.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(363, 50, 47, 45));
+
+        jLabel21.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
+        jLabel21.setText("Pesquisar");
+        panelPE.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 100, 30));
+
+        jTextField10.setEditable(false);
+        jTextField10.setBackground(new java.awt.Color(243, 243, 243));
+        jTextField10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jTextField10.setName(""); // NOI18N
+        jTextField10.setOpaque(true);
+        panelPE.add(jTextField10, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 170, 350, 45));
+
+        jLabel22.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
+        jLabel22.setText("Ingrediente");
+        panelPE.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, 180, 30));
+
+        jLabel23.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
+        jLabel23.setText("Estoque mínimo");
+        panelPE.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 220, 140, 30));
+
+        jTextField11.setEditable(false);
+        jTextField11.setBackground(new java.awt.Color(243, 243, 243));
+        jTextField11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jTextField11.setName(""); // NOI18N
+        jTextField11.setOpaque(true);
+        panelPE.add(jTextField11, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 250, 140, 45));
+
+        jButton12.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton12.setForeground(new java.awt.Color(109, 109, 109));
+        jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/adicionar.png"))); // NOI18N
+        jButton12.setText("NOVO");
+        jButton12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jButton12.setContentAreaFilled(false);
+        jButton12.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton12.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jButton12.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jButton12.setIconTextGap(5);
+        jButton12.setRequestFocusEnabled(false);
+        panelPE.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 50, 129, 40));
+
+        colorBtn12.setBackground(new java.awt.Color(90, 90, 90));
+
+        javax.swing.GroupLayout colorBtn12Layout = new javax.swing.GroupLayout(colorBtn12);
+        colorBtn12.setLayout(colorBtn12Layout);
+        colorBtn12Layout.setHorizontalGroup(
+            colorBtn12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 10, Short.MAX_VALUE)
+        );
+        colorBtn12Layout.setVerticalGroup(
+            colorBtn12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        panelPE.add(colorBtn12, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 50, 10, 40));
+
+        jButton13.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton13.setForeground(new java.awt.Color(109, 109, 109));
+        jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/editar.png"))); // NOI18N
+        jButton13.setText("EDITAR");
+        jButton13.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jButton13.setContentAreaFilled(false);
+        jButton13.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton13.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jButton13.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jButton13.setIconTextGap(5);
+        jButton13.setRequestFocusEnabled(false);
+        panelPE.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 100, 129, 40));
+
+        colorBtn13.setBackground(new java.awt.Color(218, 151, 21));
+
+        javax.swing.GroupLayout colorBtn13Layout = new javax.swing.GroupLayout(colorBtn13);
+        colorBtn13.setLayout(colorBtn13Layout);
+        colorBtn13Layout.setHorizontalGroup(
+            colorBtn13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 10, Short.MAX_VALUE)
+        );
+        colorBtn13Layout.setVerticalGroup(
+            colorBtn13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        panelPE.add(colorBtn13, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 100, 10, 40));
+
+        jButton14.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton14.setForeground(new java.awt.Color(109, 109, 109));
+        jButton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/excluir.png"))); // NOI18N
+        jButton14.setText("EXCLUIR");
+        jButton14.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jButton14.setContentAreaFilled(false);
+        jButton14.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton14.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jButton14.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jButton14.setIconTextGap(5);
+        jButton14.setRequestFocusEnabled(false);
+        panelPE.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 150, 129, 40));
+
+        colorBtn14.setBackground(new java.awt.Color(207, 131, 131));
+
+        javax.swing.GroupLayout colorBtn14Layout = new javax.swing.GroupLayout(colorBtn14);
+        colorBtn14.setLayout(colorBtn14Layout);
+        colorBtn14Layout.setHorizontalGroup(
+            colorBtn14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 10, Short.MAX_VALUE)
+        );
+        colorBtn14Layout.setVerticalGroup(
+            colorBtn14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        panelPE.add(colorBtn14, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 150, 10, 40));
+        panelPE.add(jSeparator5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, 1570, 30));
+
+        table1.fixTable(jScrollPane6);
+        table5.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {"1", "1", "pao de hamburguer", "350", "20", "un", "Estoque estável"},
+                {"2", "2", "hamburguer", "100", "20", "un", "Estoque estável"},
+                {"3", "3", "ovo", "100", "20", "un", "Estoque estável"},
+                {"4", "4", "queijo fatiado", "1", "0,2", "kg", "Estoque estável"},
+                {"5", "5", "bacon fatiado", "1", "0,2", "kg", "Estoque estável"},
+                {"6", "6", "alface", "3", "0,6", "pes", "Estoque estável"},
+                {"7", "7", "batata palha", "1", "0,2", "kg", "Estoque estável"},
+                {"8", "8", "embalagens p/ hamburguer", "100", "20", "un", "Estoque estável"}
+            },
+            new String [] {
+                "id_AI", "id_ingrediente", "Ingrediente", "Total estoque", "Estoque min.", "Und. medida", "Status"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        table5.setShowGrid(true);
+        jScrollPane6.setViewportView(table5);
+        if (table5.getColumnModel().getColumnCount() > 0) {
+            table5.getColumnModel().getColumn(0).setResizable(false);
+            table5.getColumnModel().getColumn(0).setHeaderValue("id_AI");
+            table5.getColumnModel().getColumn(1).setResizable(false);
+            table5.getColumnModel().getColumn(2).setResizable(false);
+            table5.getColumnModel().getColumn(3).setResizable(false);
+            table5.getColumnModel().getColumn(4).setResizable(false);
+            table5.getColumnModel().getColumn(4).setHeaderValue("Estoque min.");
+            table5.getColumnModel().getColumn(5).setResizable(false);
+            table5.getColumnModel().getColumn(6).setResizable(false);
+            table5.getColumnModel().getColumn(6).setHeaderValue("Status");
+        }
+
+        panelPE.add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 360, 1160, 450));
+
+        jTextField12.setEditable(false);
+        jTextField12.setBackground(new java.awt.Color(243, 243, 243));
+        jTextField12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jTextField12.setName(""); // NOI18N
+        jTextField12.setOpaque(true);
+        panelPE.add(jTextField12, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 250, 140, 45));
+
+        jLabel24.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
+        jLabel24.setText("Und. medida");
+        panelPE.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 220, 140, 30));
+
+        areaProdutoEstoque.getContentPane().add(panelPE, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1610, 1000));
+
+        areaPrincipal.add(areaProdutoEstoque, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -30, 1610, 1025));
+
+        areaEntradas.setBackground(new java.awt.Color(255, 255, 255));
+        areaEntradas.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
+        areaEntradas.setMaximumSize(new java.awt.Dimension(1702, 1070));
+        areaEntradas.setMinimumSize(new java.awt.Dimension(1702, 1070));
+        areaEntradas.setPreferredSize(new java.awt.Dimension(1702, 1070));
+        areaEntradas.setVisible(true);
+        areaEntradas.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        panelEntradas.setBackground(new java.awt.Color(255, 255, 255));
+        panelEntradas.setMaximumSize(new java.awt.Dimension(1690, 1020));
+        panelEntradas.setMinimumSize(new java.awt.Dimension(1690, 1020));
+        panelEntradas.setPreferredSize(new java.awt.Dimension(1690, 1020));
+        panelEntradas.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel26.setBackground(new java.awt.Color(103, 103, 103));
+        jLabel26.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/lupa 2.png"))); // NOI18N
+        jLabel26.setOpaque(true);
+        panelEntradas.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, 40, 45));
+
+        jTextField13.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jTextField13.setName(""); // NOI18N
+        panelEntradas.add(jTextField13, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, 100, 45));
+
+        jButton15.setText("OK");
+        jButton15.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jButton15.setContentAreaFilled(false);
+        jButton15.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        panelEntradas.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(203, 50, 47, 45));
+
+        jLabel27.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
+        jLabel27.setText("id");
+        panelEntradas.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 100, 30));
+
+        jTextField14.setEditable(false);
+        jTextField14.setBackground(new java.awt.Color(243, 243, 243));
+        jTextField14.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jTextField14.setName(""); // NOI18N
+        jTextField14.setOpaque(true);
+        panelEntradas.add(jTextField14, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 170, 350, 45));
+
+        jLabel28.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
+        jLabel28.setText("Ingrediente");
+        panelEntradas.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, 180, 30));
+
+        jButton16.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton16.setForeground(new java.awt.Color(109, 109, 109));
+        jButton16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/adicionar.png"))); // NOI18N
+        jButton16.setText("NOVO");
+        jButton16.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jButton16.setContentAreaFilled(false);
+        jButton16.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton16.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jButton16.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jButton16.setIconTextGap(5);
+        jButton16.setRequestFocusEnabled(false);
+        panelEntradas.add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 50, 129, 40));
+
+        colorBtn15.setBackground(new java.awt.Color(90, 90, 90));
+
+        javax.swing.GroupLayout colorBtn15Layout = new javax.swing.GroupLayout(colorBtn15);
+        colorBtn15.setLayout(colorBtn15Layout);
+        colorBtn15Layout.setHorizontalGroup(
+            colorBtn15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 10, Short.MAX_VALUE)
+        );
+        colorBtn15Layout.setVerticalGroup(
+            colorBtn15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        panelEntradas.add(colorBtn15, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 50, 10, 40));
+
+        jButton17.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton17.setForeground(new java.awt.Color(109, 109, 109));
+        jButton17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/editar.png"))); // NOI18N
+        jButton17.setText("EDITAR");
+        jButton17.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jButton17.setContentAreaFilled(false);
+        jButton17.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton17.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jButton17.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jButton17.setIconTextGap(5);
+        jButton17.setRequestFocusEnabled(false);
+        panelEntradas.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 100, 129, 40));
+
+        colorBtn16.setBackground(new java.awt.Color(218, 151, 21));
+
+        javax.swing.GroupLayout colorBtn16Layout = new javax.swing.GroupLayout(colorBtn16);
+        colorBtn16.setLayout(colorBtn16Layout);
+        colorBtn16Layout.setHorizontalGroup(
+            colorBtn16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 10, Short.MAX_VALUE)
+        );
+        colorBtn16Layout.setVerticalGroup(
+            colorBtn16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        panelEntradas.add(colorBtn16, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 100, 10, 40));
+
+        jButton18.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton18.setForeground(new java.awt.Color(109, 109, 109));
+        jButton18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/excluir.png"))); // NOI18N
+        jButton18.setText("EXCLUIR");
+        jButton18.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jButton18.setContentAreaFilled(false);
+        jButton18.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton18.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jButton18.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jButton18.setIconTextGap(5);
+        jButton18.setRequestFocusEnabled(false);
+        panelEntradas.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 150, 129, 40));
+
+        colorBtn17.setBackground(new java.awt.Color(207, 131, 131));
+
+        javax.swing.GroupLayout colorBtn17Layout = new javax.swing.GroupLayout(colorBtn17);
+        colorBtn17.setLayout(colorBtn17Layout);
+        colorBtn17Layout.setHorizontalGroup(
+            colorBtn17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 10, Short.MAX_VALUE)
+        );
+        colorBtn17Layout.setVerticalGroup(
+            colorBtn17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        panelEntradas.add(colorBtn17, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 150, 10, 40));
+        panelEntradas.add(jSeparator6, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, 1570, 30));
+
+        table1.fixTable(jScrollPane7);
+        table6.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {"1", "pao de hamburguer", "100", "un", "99,80", "01/05/2023"},
+                {"2", "hamburguer", "100", "un", "152,00", "01/05/2023"},
+                {"3", "ovo", "100", "un", "83,33", "01/05/2023"},
+                {"4", "queijo fatiado", "1", "kg", "38,40", "01/05/2023"},
+                {"5", "bacon fatiado", "1", "kg", "35,67", "01/05/2023"},
+                {"6", "alface", "3", "pes", "17,97", "01/05/2023"},
+                {"7", "batata palha", "1", "kg", "27,70", "01/05/2023"},
+                {"8", "embalagens p/ hamburguer", "100", "un", "104,65", "01/05/2023"},
+                {"1", "pao de hamburguer", "250", "un", "99,80", "01/05/2023"}
+            },
+            new String [] {
+                "id_ingrediente", "Ingrediente", "Quantidade", "Und. medida", "Custo", "Data"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        table6.setShowGrid(true);
+        jScrollPane7.setViewportView(table6);
+        if (table6.getColumnModel().getColumnCount() > 0) {
+            table6.getColumnModel().getColumn(0).setResizable(false);
+            table6.getColumnModel().getColumn(1).setResizable(false);
+            table6.getColumnModel().getColumn(2).setResizable(false);
+            table6.getColumnModel().getColumn(3).setResizable(false);
+            table6.getColumnModel().getColumn(4).setResizable(false);
+            table6.getColumnModel().getColumn(5).setResizable(false);
+        }
+
+        panelEntradas.add(jScrollPane7, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 360, 1160, 450));
+
+        jTextField16.setEditable(false);
+        jTextField16.setBackground(new java.awt.Color(243, 243, 243));
+        jTextField16.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jTextField16.setName(""); // NOI18N
+        jTextField16.setOpaque(true);
+        panelEntradas.add(jTextField16, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 170, 140, 45));
+
+        jLabel30.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
+        jLabel30.setText("Und. medida");
+        panelEntradas.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 140, 140, 30));
+
+        areaEntradas.getContentPane().add(panelEntradas, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1610, 1000));
+
+        areaPrincipal.add(areaEntradas, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -30, 1610, 1025));
+
+        areaEntradas_entrada.setBackground(new java.awt.Color(255, 255, 255));
+        areaEntradas_entrada.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
+        areaEntradas_entrada.setMaximumSize(new java.awt.Dimension(900, 650));
+        areaEntradas_entrada.setMinimumSize(new java.awt.Dimension(900, 650));
+        areaEntradas_entrada.setPreferredSize(new java.awt.Dimension(900, 650));
+        areaEntradas_entrada.setVisible(true);
+        areaEntradas_entrada.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        panelEntradas1.setBackground(new java.awt.Color(255, 255, 255));
+        panelEntradas1.setMaximumSize(new java.awt.Dimension(1690, 1020));
+        panelEntradas1.setMinimumSize(new java.awt.Dimension(1690, 1020));
+        panelEntradas1.setPreferredSize(new java.awt.Dimension(1690, 1020));
+        panelEntradas1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel29.setBackground(new java.awt.Color(103, 103, 103));
+        jLabel29.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/lupa 2.png"))); // NOI18N
+        jLabel29.setOpaque(true);
+        panelEntradas1.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, 40, 45));
+
+        jTextField15.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jTextField15.setName(""); // NOI18N
+        panelEntradas1.add(jTextField15, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, 100, 45));
+
+        jButton19.setText("OK");
+        jButton19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jButton19.setContentAreaFilled(false);
+        jButton19.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        panelEntradas1.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(203, 50, 47, 45));
+
+        jLabel31.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
+        jLabel31.setText("id");
+        panelEntradas1.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 100, 30));
+
+        jTextField17.setEditable(false);
+        jTextField17.setBackground(new java.awt.Color(243, 243, 243));
+        jTextField17.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jTextField17.setName(""); // NOI18N
+        jTextField17.setOpaque(true);
+        panelEntradas1.add(jTextField17, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 170, 300, 45));
+
+        jLabel32.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
+        jLabel32.setText("Ingrediente");
+        panelEntradas1.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, 180, 30));
+
+        jButton21.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton21.setForeground(new java.awt.Color(109, 109, 109));
+        jButton21.setText("CANCELAR");
+        jButton21.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jButton21.setContentAreaFilled(false);
+        jButton21.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton21.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jButton21.setIconTextGap(5);
+        jButton21.setRequestFocusEnabled(false);
+        panelEntradas1.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 570, 129, 40));
+
+        colorBtn19.setBackground(new java.awt.Color(192, 192, 192));
+
+        javax.swing.GroupLayout colorBtn19Layout = new javax.swing.GroupLayout(colorBtn19);
+        colorBtn19.setLayout(colorBtn19Layout);
+        colorBtn19Layout.setHorizontalGroup(
+            colorBtn19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 10, Short.MAX_VALUE)
+        );
+        colorBtn19Layout.setVerticalGroup(
+            colorBtn19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        panelEntradas1.add(colorBtn19, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 570, 10, 40));
+
+        jButton22.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton22.setForeground(new java.awt.Color(109, 109, 109));
+        jButton22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/check mark.png"))); // NOI18N
+        jButton22.setText("SALVAR");
+        jButton22.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jButton22.setContentAreaFilled(false);
+        jButton22.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton22.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jButton22.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jButton22.setIconTextGap(5);
+        jButton22.setRequestFocusEnabled(false);
+        panelEntradas1.add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 570, 129, 40));
+
+        colorBtn20.setBackground(new java.awt.Color(117, 166, 119));
+
+        javax.swing.GroupLayout colorBtn20Layout = new javax.swing.GroupLayout(colorBtn20);
+        colorBtn20.setLayout(colorBtn20Layout);
+        colorBtn20Layout.setHorizontalGroup(
+            colorBtn20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 10, Short.MAX_VALUE)
+        );
+        colorBtn20Layout.setVerticalGroup(
+            colorBtn20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        panelEntradas1.add(colorBtn20, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 570, 10, 40));
+
+        jTextField18.setEditable(false);
+        jTextField18.setBackground(new java.awt.Color(243, 243, 243));
+        jTextField18.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jTextField18.setName(""); // NOI18N
+        jTextField18.setOpaque(true);
+        panelEntradas1.add(jTextField18, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 170, 140, 45));
+
+        jLabel33.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
+        jLabel33.setText("Und. medida");
+        panelEntradas1.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 140, 140, 30));
+
+        jLabel34.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
+        jLabel34.setText("Quantidade");
+        panelEntradas1.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 230, 140, 30));
+
+        jTextField16.setEditable(false);
+        jTextField19.setBackground(new java.awt.Color(243, 243, 243));
+        jTextField19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jTextField19.setEnabled(false);
+        jTextField19.setName(""); // NOI18N
+        panelEntradas1.add(jTextField19, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 260, 140, 45));
+
+        jTextField16.setEditable(false);
+        jTextField20.setBackground(new java.awt.Color(243, 243, 243));
+        jTextField20.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jTextField20.setEnabled(false);
+        jTextField20.setName(""); // NOI18N
+        panelEntradas1.add(jTextField20, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 260, 140, 45));
+
+        jLabel35.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
+        jLabel35.setText("Custo");
+        panelEntradas1.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 230, 140, 30));
+
+        jLabel36.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
+        jLabel36.setText("Data");
+        panelEntradas1.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 230, 140, 30));
+
+        jTextField21.setEditable(false);
+        jTextField21.setBackground(new java.awt.Color(243, 243, 243));
+        jTextField21.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jTextField21.setName(""); // NOI18N
+        jTextField21.setOpaque(true);
+        panelEntradas1.add(jTextField21, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 260, 140, 45));
+
+        areaEntradas_entrada.getContentPane().add(panelEntradas1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 900, 670));
+
+        areaPrincipal.add(areaEntradas_entrada, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -30, 900, 650));
 
         base.setBackground(new java.awt.Color(255, 255, 255));
         base.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
@@ -747,12 +1815,22 @@ AnimationClass ac = new AnimationClass();
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
         );
 
         pack();
@@ -764,12 +1842,29 @@ AnimationClass ac = new AnimationClass();
         btnFichaTecnica.setBackground(Color.decode("#D3D3D3"));
         btnCalculoPorcoes.setBackground(Color.decode("#D3D3D3"));
         btnLanches.setBackground(Color.decode("#D3D3D3"));
+        
+        areaNovoPedido.setVisible(false);
+        areaVisualizarPedidos.setVisible(false);
+        areaLanche.setVisible(false);
+        areaIngredientes.setVisible(true);
+        areaProdutoEstoque.setVisible(false);
+        areaEntradas.setVisible(false);
     }//GEN-LAST:event_btnIngredientesActionPerformed
 
     private void btnEstoque2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEstoque2ActionPerformed
         painelMenu1.setVisible(false);
         painelMenu2.setVisible(false);
         painelMenu3.setVisible(true);
+        
+        btnEntradas.setBackground(Color.decode("#C0C0C0"));
+        btnProdutosEstoque.setBackground(Color.decode("#D3D3D3"));
+        
+        areaNovoPedido.setVisible(false);
+        areaVisualizarPedidos.setVisible(false);
+        areaLanche.setVisible(false);
+        areaIngredientes.setVisible(false);
+        areaProdutoEstoque.setVisible(false);
+        areaEntradas.setVisible(true);
     }//GEN-LAST:event_btnEstoque2ActionPerformed
 
     private void btnLanchesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLanchesActionPerformed
@@ -777,12 +1872,29 @@ AnimationClass ac = new AnimationClass();
         btnFichaTecnica.setBackground(Color.decode("#D3D3D3"));
         btnCalculoPorcoes.setBackground(Color.decode("#D3D3D3"));
         btnLanches.setBackground(Color.decode("#C0C0C0"));
+        
+        areaNovoPedido.setVisible(false);
+        areaVisualizarPedidos.setVisible(false);
+        areaLanche.setVisible(true);
+        areaIngredientes.setVisible(false);
+        areaProdutoEstoque.setVisible(false);
+        areaEntradas.setVisible(false);
     }//GEN-LAST:event_btnLanchesActionPerformed
 
     private void btnPedidos2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPedidos2ActionPerformed
         painelMenu1.setVisible(true);
         painelMenu2.setVisible(false);
         painelMenu3.setVisible(false);
+        
+        btnNovoPedido.setBackground(Color.decode("#C0C0C0"));
+        btnVisualizarPedidos.setBackground(Color.decode("#D3D3D3"));
+        
+        areaNovoPedido.setVisible(true);
+        areaVisualizarPedidos.setVisible(false);
+        areaLanche.setVisible(false);
+        areaIngredientes.setVisible(false);
+        areaProdutoEstoque.setVisible(false);
+        areaEntradas.setVisible(false);
     }//GEN-LAST:event_btnPedidos2ActionPerformed
 
     private void btnProdutos2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProdutos2ActionPerformed
@@ -799,6 +1911,10 @@ AnimationClass ac = new AnimationClass();
         
         areaNovoPedido.setVisible(true);
         areaVisualizarPedidos.setVisible(false);
+        areaLanche.setVisible(false);
+        areaIngredientes.setVisible(false);
+        areaProdutoEstoque.setVisible(false);
+        areaEntradas.setVisible(false);
     }//GEN-LAST:event_btnNovoPedidoActionPerformed
 
     private void btnVisualizarPedidosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVisualizarPedidosActionPerformed
@@ -807,18 +1923,46 @@ AnimationClass ac = new AnimationClass();
         
         areaNovoPedido.setVisible(false);
         areaVisualizarPedidos.setVisible(true);
+        areaLanche.setVisible(false);
+        areaIngredientes.setVisible(false);
+        areaProdutoEstoque.setVisible(false);
+        areaEntradas.setVisible(false);
     }//GEN-LAST:event_btnVisualizarPedidosActionPerformed
 
     private void btnProdutos1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProdutos1ActionPerformed
         painelMenu1.setVisible(false);
         painelMenu2.setVisible(true);
         painelMenu3.setVisible(false);
+        
+        areaNovoPedido.setVisible(false);
+        areaVisualizarPedidos.setVisible(false);
+        areaLanche.setVisible(true);
+        areaIngredientes.setVisible(false);
+        areaProdutoEstoque.setVisible(true);
+        areaEntradas.setVisible(false);
+        
+        btnIngredientes.setBackground(Color.decode("#D3D3D3"));
+        btnFichaTecnica.setBackground(Color.decode("#D3D3D3"));
+        btnCalculoPorcoes.setBackground(Color.decode("#D3D3D3"));
+        btnLanches.setBackground(Color.decode("#C0C0C0"));
     }//GEN-LAST:event_btnProdutos1ActionPerformed
 
     private void btnEstoque1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEstoque1ActionPerformed
         painelMenu1.setVisible(false);
         painelMenu2.setVisible(false);
         painelMenu3.setVisible(true);
+        
+        btnEntradas.setBackground(Color.decode("#C0C0C0"));
+        btnProdutosEstoque.setBackground(Color.decode("#D3D3D3"));
+        
+        areaNovoPedido.setVisible(false);
+        areaVisualizarPedidos.setVisible(false);
+        areaLanche.setVisible(false);
+        areaIngredientes.setVisible(false);
+        areaProdutoEstoque.setVisible(false);
+        areaEntradas.setVisible(true);
+        
+        
     }//GEN-LAST:event_btnEstoque1ActionPerformed
 
     private void btnFichaTecnicaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFichaTecnicaActionPerformed
@@ -826,6 +1970,15 @@ AnimationClass ac = new AnimationClass();
         btnFichaTecnica.setBackground(Color.decode("#C0C0C0"));
         btnCalculoPorcoes.setBackground(Color.decode("#D3D3D3"));
         btnLanches.setBackground(Color.decode("#D3D3D3"));
+        
+        areaNovoPedido.setVisible(false);
+        areaVisualizarPedidos.setVisible(false);
+        areaLanche.setVisible(false);
+        areaIngredientes.setVisible(false);
+        areaProdutoEstoque.setVisible(false);
+        areaEntradas.setVisible(false);
+        
+        areaEntradas_entrada.setVisible(false);
     }//GEN-LAST:event_btnFichaTecnicaActionPerformed
 
     private void btnCalculoPorcoesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalculoPorcoesActionPerformed
@@ -839,22 +1992,51 @@ AnimationClass ac = new AnimationClass();
         painelMenu1.setVisible(true);
         painelMenu2.setVisible(false);
         painelMenu3.setVisible(false);
+        
+        areaNovoPedido.setVisible(true);
+        areaVisualizarPedidos.setVisible(false);
+        areaLanche.setVisible(false);
+        areaIngredientes.setVisible(false);
+        areaProdutoEstoque.setVisible(false);
+        areaEntradas.setVisible(false);
     }//GEN-LAST:event_btnPedidos3ActionPerformed
 
     private void btnEntradasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEntradasActionPerformed
         btnProdutosEstoque.setBackground(Color.decode("#D3D3D3"));
         btnEntradas.setBackground(Color.decode("#C0C0C0"));
+        
+        areaNovoPedido.setVisible(false);
+        areaVisualizarPedidos.setVisible(false);
+        areaLanche.setVisible(false);
+        areaIngredientes.setVisible(false);
+        areaProdutoEstoque.setVisible(false);
+        areaEntradas.setVisible(true);
     }//GEN-LAST:event_btnEntradasActionPerformed
 
     private void btnProdutosEstoqueActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProdutosEstoqueActionPerformed
         btnProdutosEstoque.setBackground(Color.decode("#C0C0C0"));
         btnEntradas.setBackground(Color.decode("#D3D3D3"));
+        
+        areaNovoPedido.setVisible(false);
+        areaVisualizarPedidos.setVisible(false);
+        areaLanche.setVisible(false);
+        areaIngredientes.setVisible(false);
+        areaProdutoEstoque.setVisible(true);
+        areaEntradas.setVisible(false);
+        
     }//GEN-LAST:event_btnProdutosEstoqueActionPerformed
 
     private void btnProdutos3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProdutos3ActionPerformed
         painelMenu1.setVisible(false);
         painelMenu2.setVisible(true);
         painelMenu3.setVisible(false);
+        
+        areaNovoPedido.setVisible(false);
+        areaVisualizarPedidos.setVisible(false);
+        areaLanche.setVisible(true);
+        areaIngredientes.setVisible(false);
+        areaProdutoEstoque.setVisible(false);
+        areaEntradas.setVisible(false);
     }//GEN-LAST:event_btnProdutos3ActionPerformed
 
     private void btnEstoque3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEstoque3ActionPerformed
@@ -901,8 +2083,13 @@ AnimationClass ac = new AnimationClass();
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JInternalFrame areaEntradas;
+    private javax.swing.JInternalFrame areaEntradas_entrada;
+    private javax.swing.JInternalFrame areaIngredientes;
+    private javax.swing.JInternalFrame areaLanche;
     private javax.swing.JInternalFrame areaNovoPedido;
     private javax.swing.JDesktopPane areaPrincipal;
+    private javax.swing.JInternalFrame areaProdutoEstoque;
     private javax.swing.JInternalFrame areaVisualizarPedidos;
     private javax.swing.JInternalFrame base;
     private javax.swing.JPanel bordaPainel;
@@ -924,15 +2111,78 @@ AnimationClass ac = new AnimationClass();
     private javax.swing.JButton btnProdutosEstoque;
     private javax.swing.JLabel btnSair;
     private javax.swing.JButton btnVisualizarPedidos;
+    private javax.swing.JPanel colorBtn1;
+    private javax.swing.JPanel colorBtn12;
+    private javax.swing.JPanel colorBtn13;
+    private javax.swing.JPanel colorBtn14;
+    private javax.swing.JPanel colorBtn15;
+    private javax.swing.JPanel colorBtn16;
+    private javax.swing.JPanel colorBtn17;
+    private javax.swing.JPanel colorBtn19;
+    private javax.swing.JPanel colorBtn20;
+    private javax.swing.JPanel colorBtn4;
+    private javax.swing.JPanel colorBtn5;
+    private javax.swing.JPanel colorBtn6;
+    private javax.swing.JPanel colorBtn7;
+    private javax.swing.JPanel colorBtn8;
+    private javax.swing.JPanel colorBtn9;
     private combobox.Combobox combobox1;
     private javax.swing.JPanel fotoVP;
+    private javax.swing.JPanel fotoVP1;
+    private javax.swing.JPanel fotoVP2;
+    private javax.swing.JPanel fotoVP3;
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton13;
+    private javax.swing.JButton jButton14;
+    private javax.swing.JButton jButton15;
+    private javax.swing.JButton jButton16;
+    private javax.swing.JButton jButton17;
+    private javax.swing.JButton jButton18;
+    private javax.swing.JButton jButton19;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton21;
+    private javax.swing.JButton jButton22;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton8;
+    private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
@@ -942,11 +2192,37 @@ AnimationClass ac = new AnimationClass();
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JScrollPane jScrollPane6;
+    private javax.swing.JScrollPane jScrollPane7;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
+    private javax.swing.JSeparator jSeparator3;
+    private javax.swing.JSeparator jSeparator4;
+    private javax.swing.JSeparator jSeparator5;
+    private javax.swing.JSeparator jSeparator6;
     private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField10;
+    private javax.swing.JTextField jTextField11;
+    private javax.swing.JTextField jTextField12;
+    private javax.swing.JTextField jTextField13;
+    private javax.swing.JTextField jTextField14;
+    private javax.swing.JTextField jTextField15;
+    private javax.swing.JTextField jTextField16;
+    private javax.swing.JTextField jTextField17;
+    private javax.swing.JTextField jTextField18;
+    private javax.swing.JTextField jTextField19;
     private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextField20;
+    private javax.swing.JTextField jTextField21;
     private javax.swing.JTextField jTextField3;
+    private javax.swing.JTextField jTextField4;
+    private javax.swing.JTextField jTextField5;
+    private javax.swing.JTextField jTextField6;
+    private javax.swing.JTextField jTextField7;
+    private javax.swing.JTextField jTextField8;
+    private javax.swing.JTextField jTextField9;
     private javax.swing.JLabel lblCopyright;
     private javax.swing.JLabel logo1;
     private javax.swing.JLabel logo2;
@@ -954,12 +2230,21 @@ AnimationClass ac = new AnimationClass();
     private javax.swing.JPanel painelMenu1;
     private javax.swing.JPanel painelMenu2;
     private javax.swing.JPanel painelMenu3;
+    private javax.swing.JPanel panelEntradas;
+    private javax.swing.JPanel panelEntradas1;
+    private javax.swing.JPanel panelIngredientes;
+    private javax.swing.JPanel panelLanche;
     private javax.swing.JPanel panelNP;
+    private javax.swing.JPanel panelPE;
     private javax.swing.JPanel panelVP;
     private javax.swing.JPanel panelVP1;
     private javax.swing.JPanel rodapePainel;
     private spinner.Spinner spinner2;
     private javaswingdev.swing.table.Table table1;
     private javaswingdev.swing.table.Table table2;
+    private javaswingdev.swing.table.Table table3;
+    private javaswingdev.swing.table.Table table4;
+    private javaswingdev.swing.table.Table table5;
+    private javaswingdev.swing.table.Table table6;
     // End of variables declaration//GEN-END:variables
 }

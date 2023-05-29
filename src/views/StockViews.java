@@ -48,7 +48,6 @@ AnimationClass ac = new AnimationClass();
         jLabel3 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
@@ -57,13 +56,28 @@ AnimationClass ac = new AnimationClass();
         spinner2 = new spinner.Spinner();
         jScrollPane2 = new javax.swing.JScrollPane();
         table1 = new javaswingdev.swing.table.Table();
+        fotoVP = new javax.swing.JPanel();
+        jLabel2 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
         rodapePainel = new javax.swing.JPanel();
         lblCopyright = new javax.swing.JLabel();
         bordaPainel = new javax.swing.JPanel();
         btnSair = new javax.swing.JLabel();
         areaVisualizarPedidos = new javax.swing.JInternalFrame();
         panelVP = new javax.swing.JPanel();
-        jLabel4 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jTextField2 = new javax.swing.JTextField();
+        jSeparator2 = new javax.swing.JSeparator();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        jTextField3 = new javax.swing.JTextField();
+        jLabel10 = new javax.swing.JLabel();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        table2 = new javaswingdev.swing.table.Table();
+        jButton2 = new javax.swing.JButton();
+        base = new javax.swing.JInternalFrame();
+        panelVP1 = new javax.swing.JPanel();
+        jLabel5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMaximumSize(new java.awt.Dimension(1920, 1020));
@@ -444,7 +458,7 @@ AnimationClass ac = new AnimationClass();
 
         jLabel3.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
         jLabel3.setText("Quantidade");
-        panelNP.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 100, 100, 30));
+        panelNP.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 100, 100, 30));
 
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton1.setForeground(new java.awt.Color(40, 40, 40));
@@ -472,50 +486,91 @@ AnimationClass ac = new AnimationClass();
 
         panelNP.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 50, 10, 40));
 
-        jLabel1.setBackground(new java.awt.Color(243, 243, 243));
-        jLabel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jLabel1.setOpaque(true);
-        panelNP.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, 102, 45));
-
-        jLabel6.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Segoe UI Semibold", 1, 20)); // NOI18N
         jLabel6.setText("Ficha Técnica");
-        panelNP.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 260, 100, 30));
+        panelNP.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 360, 160, 30));
 
         jLabel7.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
         jLabel7.setText("Total (R$)");
-        panelNP.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, 100, 30));
-        panelNP.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 230, 1570, 30));
+        panelNP.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, 100, 30));
+        panelNP.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, 1570, 30));
 
         jLabel8.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
         jLabel8.setText("Lanche");
-        panelNP.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 100, 30));
+        panelNP.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 100, 30));
 
         combobox1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
         combobox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         combobox1.setSelectedIndex(-1);
         combobox1.setSelectedItem(null);
         combobox1.setLabeText("");
-        panelNP.add(combobox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 50, 220, 40));
+        panelNP.add(combobox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, 220, 40));
 
         spinner2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
         spinner2.setLabelText("");
-        panelNP.add(spinner2, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 130, 102, 45));
+        panelNP.add(spinner2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 130, 102, 45));
 
         table1.fixTable(jScrollPane2);
         table1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"aa", "a", "a", "a"},
-                {"a", "a", "a", "a"},
-                {"a", "aa", "a", "a"},
-                {"aa", "a", "a", "a"}
+                {"pao de hamburguer", "1", "un"},
+                {"hamburguer", "1", "un"},
+                {"ovo", "1", "un"},
+                {"queijo fatiado", "0,01", "kg"}
             },
             new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
+                "Ingrediente", "Qnt", "Und. Medida"
             }
-        ));
-        jScrollPane2.setViewportView(table1);
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false
+            };
 
-        panelNP.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 300, -1, 170));
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        table1.setShowGrid(true);
+        jScrollPane2.setViewportView(table1);
+        if (table1.getColumnModel().getColumnCount() > 0) {
+            table1.getColumnModel().getColumn(0).setResizable(false);
+            table1.getColumnModel().getColumn(1).setResizable(false);
+            table1.getColumnModel().getColumn(2).setResizable(false);
+        }
+
+        panelNP.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 400, 610, 450));
+
+        jLabel2.setFont(new java.awt.Font("Segoe UI Black", 1, 36)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel2.setText("FOTO");
+        jLabel2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        javax.swing.GroupLayout fotoVPLayout = new javax.swing.GroupLayout(fotoVP);
+        fotoVP.setLayout(fotoVPLayout);
+        fotoVPLayout.setHorizontalGroup(
+            fotoVPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, fotoVPLayout.createSequentialGroup()
+                .addContainerGap(51, Short.MAX_VALUE)
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(49, 49, 49))
+        );
+        fotoVPLayout.setVerticalGroup(
+            fotoVPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(fotoVPLayout.createSequentialGroup()
+                .addGap(68, 68, 68)
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(75, Short.MAX_VALUE))
+        );
+
+        panelNP.add(fotoVP, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 60, 213, 213));
+
+        jTextField1.setBackground(new java.awt.Color(243, 243, 243));
+        jTextField1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jTextField1.setName(""); // NOI18N
+        jTextField1.setEditable(false);
+        jTextField1.setOpaque(true);
+        panelNP.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 130, 102, 45));
 
         areaNovoPedido.getContentPane().add(panelNP, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1610, 1050));
 
@@ -584,18 +639,106 @@ AnimationClass ac = new AnimationClass();
         areaVisualizarPedidos.setVisible(true);
         areaVisualizarPedidos.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        panelVP.setBackground(new java.awt.Color(255, 204, 204));
+        panelVP.setBackground(new java.awt.Color(255, 255, 255));
         panelVP.setMaximumSize(new java.awt.Dimension(1690, 1020));
         panelVP.setMinimumSize(new java.awt.Dimension(1690, 1020));
         panelVP.setPreferredSize(new java.awt.Dimension(1690, 1020));
         panelVP.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel4.setText("Área Visualizar Pedidos");
-        panelVP.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(31, 25, -1, -1));
+        jLabel9.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
+        jLabel9.setText("Total Vendas (R$)");
+        panelVP.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, 180, 30));
+
+        jTextField2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jTextField2.setName(""); // NOI18N
+        panelVP.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, 100, 45));
+        panelVP.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, 1570, 30));
+
+        jLabel11.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
+        jLabel11.setText("Data");
+        panelVP.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 100, 30));
+
+        jLabel1.setBackground(new java.awt.Color(103, 103, 103));
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/lupa 2.png"))); // NOI18N
+        jLabel1.setOpaque(true);
+        panelVP.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, 40, 45));
+
+        jTextField3.setEditable(false);
+        jTextField3.setBackground(new java.awt.Color(243, 243, 243));
+        jTextField3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jTextField3.setName(""); // NOI18N
+        jTextField3.setOpaque(true);
+        panelVP.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 130, 188, 45));
+
+        jLabel10.setFont(new java.awt.Font("Segoe UI Semibold", 1, 20)); // NOI18N
+        jLabel10.setText("Ficha Técnica");
+        panelVP.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 360, 160, 30));
+
+        table1.fixTable(jScrollPane3);
+        table2.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {"1", "a", "1", "16", "20", "20", "01/02/2023"},
+                {"1", "a", "1", "16", "20", "20", "01/02/2023"},
+                {"1", "a", "1", "16", "20", "20", "01/02/2023"},
+                {"1", "a", "1", "16", "20", "20", "01/02/2023"}
+            },
+            new String [] {
+                "id lanche", "Lanche", "Qnt", "Custo Unt.", "Valor Unt.", "Valor Total Venda", "Data"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        table2.setShowGrid(true);
+        jScrollPane3.setViewportView(table2);
+        if (table2.getColumnModel().getColumnCount() > 0) {
+            table2.getColumnModel().getColumn(0).setResizable(false);
+            table2.getColumnModel().getColumn(1).setResizable(false);
+            table2.getColumnModel().getColumn(2).setResizable(false);
+            table2.getColumnModel().getColumn(3).setResizable(false);
+            table2.getColumnModel().getColumn(4).setResizable(false);
+            table2.getColumnModel().getColumn(5).setResizable(false);
+            table2.getColumnModel().getColumn(6).setResizable(false);
+        }
+
+        panelVP.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 400, 1160, 450));
+
+        jButton2.setText("OK");
+        jButton2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jButton2.setContentAreaFilled(false);
+        jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        panelVP.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 50, 47, 45));
 
         areaVisualizarPedidos.getContentPane().add(panelVP, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1610, 1000));
 
         areaPrincipal.add(areaVisualizarPedidos, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -30, 1610, 1025));
+
+        base.setBackground(new java.awt.Color(255, 255, 255));
+        base.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
+        base.setMaximumSize(new java.awt.Dimension(1702, 1070));
+        base.setMinimumSize(new java.awt.Dimension(1702, 1070));
+        base.setPreferredSize(new java.awt.Dimension(1702, 1070));
+        base.setVisible(true);
+        base.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        panelVP1.setBackground(new java.awt.Color(255, 204, 204));
+        panelVP1.setMaximumSize(new java.awt.Dimension(1690, 1020));
+        panelVP1.setMinimumSize(new java.awt.Dimension(1690, 1020));
+        panelVP1.setPreferredSize(new java.awt.Dimension(1690, 1020));
+        panelVP1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel5.setText("Área Visualizar Pedidos");
+        panelVP1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(31, 25, -1, -1));
+
+        base.getContentPane().add(panelVP1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1610, 1000));
+
+        areaPrincipal.add(base, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -30, 1610, 1025));
 
         jPanel1.add(areaPrincipal, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 0, 1670, 1020));
 
@@ -761,6 +904,7 @@ AnimationClass ac = new AnimationClass();
     private javax.swing.JInternalFrame areaNovoPedido;
     private javax.swing.JDesktopPane areaPrincipal;
     private javax.swing.JInternalFrame areaVisualizarPedidos;
+    private javax.swing.JInternalFrame base;
     private javax.swing.JPanel bordaPainel;
     private javax.swing.JButton btnCalculoPorcoes;
     private javax.swing.JButton btnEntradas;
@@ -781,17 +925,28 @@ AnimationClass ac = new AnimationClass();
     private javax.swing.JLabel btnSair;
     private javax.swing.JButton btnVisualizarPedidos;
     private combobox.Combobox combobox1;
+    private javax.swing.JPanel fotoVP;
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JSeparator jSeparator1;
+    private javax.swing.JSeparator jSeparator2;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextField3;
     private javax.swing.JLabel lblCopyright;
     private javax.swing.JLabel logo1;
     private javax.swing.JLabel logo2;
@@ -801,8 +956,10 @@ AnimationClass ac = new AnimationClass();
     private javax.swing.JPanel painelMenu3;
     private javax.swing.JPanel panelNP;
     private javax.swing.JPanel panelVP;
+    private javax.swing.JPanel panelVP1;
     private javax.swing.JPanel rodapePainel;
     private spinner.Spinner spinner2;
     private javaswingdev.swing.table.Table table1;
+    private javaswingdev.swing.table.Table table2;
     // End of variables declaration//GEN-END:variables
 }

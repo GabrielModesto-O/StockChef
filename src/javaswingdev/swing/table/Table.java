@@ -5,6 +5,7 @@ import java.awt.Component;
 
 import design.swing.ScrollBar;
 import design.swing.SystemColor;
+import java.awt.Font;
 
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
@@ -17,8 +18,8 @@ public class Table extends JTable {
     public Table() {
         
         setShowHorizontalLines(true);
-        //setGridColor(new Color(230, 230, 230));
-        setGridColor(Color.decode("#c0c0c0"));
+        setShowVerticalLines(true);
+        setGridColor(Color.decode("#C0C0C0"));
         setRowHeight(40);
         getTableHeader().setReorderingAllowed(false);
         getTableHeader().setDefaultRenderer(new DefaultTableCellRenderer() {
@@ -35,9 +36,12 @@ public class Table extends JTable {
                 com.setBackground(Color.WHITE);
                 setBorder(noFocusBorder);
                 if (selected) {
-                    com.setForeground(SystemColor.MAIN_COLOR_1);
+                    com.setForeground(Color.decode("#000000"));
+                    setBackground(Color.decode("#E7E7E7"));
+                    setFont(new Font("SegoeUI Semibold", 1, 13));
                 } else {
-                    com.setForeground(new Color(102, 102, 102));
+                    com.setForeground(Color.decode("#343434"));
+                    setFont(new Font("SegoeUI Semibold", 5, 12));
                 }
                 return com;
             }

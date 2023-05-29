@@ -29,8 +29,8 @@ public class PorcoesCalcular extends javax.swing.JFrame {
         panelEntradas1 = new javax.swing.JPanel();
         jTextField17 = new javax.swing.JTextField();
         jLabel32 = new javax.swing.JLabel();
-        jButton21 = new javax.swing.JButton();
         colorBtn19 = new javax.swing.JPanel();
+        mybtn5 = new styles.Mybtn();
         jLabel35 = new javax.swing.JLabel();
         jLabel38 = new javax.swing.JLabel();
         jTextField22 = new javax.swing.JTextField();
@@ -125,22 +125,6 @@ public class PorcoesCalcular extends javax.swing.JFrame {
         jLabel32.setText("Produto/Lanche");
         panelEntradas1.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 180, 30));
 
-        jButton21.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton21.setForeground(new java.awt.Color(109, 109, 109));
-        jButton21.setText("CANCELAR");
-        jButton21.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jButton21.setContentAreaFilled(false);
-        jButton21.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton21.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-        jButton21.setIconTextGap(5);
-        jButton21.setRequestFocusEnabled(false);
-        jButton21.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton21ActionPerformed(evt);
-            }
-        });
-        panelEntradas1.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 935, 129, 40));
-
         colorBtn19.setBackground(new java.awt.Color(192, 192, 192));
 
         javax.swing.GroupLayout colorBtn19Layout = new javax.swing.GroupLayout(colorBtn19);
@@ -155,6 +139,14 @@ public class PorcoesCalcular extends javax.swing.JFrame {
         );
 
         panelEntradas1.add(colorBtn19, new org.netbeans.lib.awtextra.AbsoluteConstraints(717, 935, 10, 40));
+
+        mybtn5.setText("CANCELAR");
+        mybtn5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mybtn5ActionPerformed(evt);
+            }
+        });
+        panelEntradas1.add(mybtn5, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 935, 129, 40));
 
         jLabel35.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
         jLabel35.setText("Qnt. de porções");
@@ -505,9 +497,9 @@ public class PorcoesCalcular extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+    private void mybtn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mybtn5ActionPerformed
         dispose();
-    }//GEN-LAST:event_jButton21ActionPerformed
+    }//GEN-LAST:event_mybtn5ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -610,7 +602,6 @@ public class PorcoesCalcular extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JInternalFrame areaEntradas_entrada;
     private javax.swing.JPanel colorBtn19;
-    private javax.swing.JButton jButton21;
     private javax.swing.JDesktopPane jDesktopPane1;
     private javax.swing.JLabel jLabel32;
     private javax.swing.JLabel jLabel33;
@@ -671,6 +662,7 @@ public class PorcoesCalcular extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField64;
     private javax.swing.JTextField jTextField65;
     private javax.swing.JTextField jTextField66;
+    private styles.Mybtn mybtn5;
     private javax.swing.JPanel panelEntradas1;
     private spinner.Spinner spinner2;
     // End of variables declaration//GEN-END:variables

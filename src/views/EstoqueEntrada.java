@@ -29,13 +29,10 @@ public class EstoqueEntrada extends javax.swing.JFrame {
         panelEntradas1 = new javax.swing.JPanel();
         jLabel29 = new javax.swing.JLabel();
         jTextField15 = new javax.swing.JTextField();
-        jButton19 = new javax.swing.JButton();
         jLabel31 = new javax.swing.JLabel();
         jTextField17 = new javax.swing.JTextField();
         jLabel32 = new javax.swing.JLabel();
-        jButton21 = new javax.swing.JButton();
         colorBtn19 = new javax.swing.JPanel();
-        jButton22 = new javax.swing.JButton();
         colorBtn20 = new javax.swing.JPanel();
         jTextField18 = new javax.swing.JTextField();
         jLabel33 = new javax.swing.JLabel();
@@ -45,6 +42,9 @@ public class EstoqueEntrada extends javax.swing.JFrame {
         jLabel35 = new javax.swing.JLabel();
         jLabel36 = new javax.swing.JLabel();
         jTextField21 = new javax.swing.JTextField();
+        mybtn5 = new styles.Mybtn();
+        mybtn4 = new styles.Mybtn();
+        mybtn21 = new styles.Mybtn2();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
@@ -80,12 +80,6 @@ public class EstoqueEntrada extends javax.swing.JFrame {
         jTextField15.setName(""); // NOI18N
         panelEntradas1.add(jTextField15, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, 100, 45));
 
-        jButton19.setText("OK");
-        jButton19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jButton19.setContentAreaFilled(false);
-        jButton19.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        panelEntradas1.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(203, 50, 47, 45));
-
         jLabel31.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
         jLabel31.setText("id");
         panelEntradas1.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 100, 30));
@@ -101,22 +95,6 @@ public class EstoqueEntrada extends javax.swing.JFrame {
         jLabel32.setText("Ingrediente");
         panelEntradas1.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, 180, 30));
 
-        jButton21.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton21.setForeground(new java.awt.Color(109, 109, 109));
-        jButton21.setText("CANCELAR");
-        jButton21.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jButton21.setContentAreaFilled(false);
-        jButton21.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton21.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-        jButton21.setIconTextGap(5);
-        jButton21.setRequestFocusEnabled(false);
-        jButton21.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton21ActionPerformed(evt);
-            }
-        });
-        panelEntradas1.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 570, 129, 40));
-
         colorBtn19.setBackground(new java.awt.Color(192, 192, 192));
 
         javax.swing.GroupLayout colorBtn19Layout = new javax.swing.GroupLayout(colorBtn19);
@@ -131,19 +109,6 @@ public class EstoqueEntrada extends javax.swing.JFrame {
         );
 
         panelEntradas1.add(colorBtn19, new org.netbeans.lib.awtextra.AbsoluteConstraints(547, 570, 10, 40));
-
-        jButton22.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton22.setForeground(new java.awt.Color(109, 109, 109));
-        jButton22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/check mark.png"))); // NOI18N
-        jButton22.setText("SALVAR");
-        jButton22.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jButton22.setContentAreaFilled(false);
-        jButton22.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton22.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jButton22.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-        jButton22.setIconTextGap(5);
-        jButton22.setRequestFocusEnabled(false);
-        panelEntradas1.add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 570, 129, 40));
 
         colorBtn20.setBackground(new java.awt.Color(117, 166, 119));
 
@@ -198,6 +163,23 @@ public class EstoqueEntrada extends javax.swing.JFrame {
         jTextField21.setOpaque(true);
         panelEntradas1.add(jTextField21, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 260, 140, 45));
 
+        mybtn5.setText("CANCELAR");
+        mybtn5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mybtn5ActionPerformed(evt);
+            }
+        });
+        panelEntradas1.add(mybtn5, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 570, 129, 40));
+
+        mybtn4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/check mark.png"))); // NOI18N
+        mybtn4.setText("SALVAR");
+        mybtn4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        mybtn4.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        panelEntradas1.add(mybtn4, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 570, 129, 40));
+
+        mybtn21.setText("OK");
+        panelEntradas1.add(mybtn21, new org.netbeans.lib.awtextra.AbsoluteConstraints(203, 50, 47, 47));
+
         areaEntradas_entrada.getContentPane().add(panelEntradas1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 900, 660));
 
         jDesktopPane1.add(areaEntradas_entrada, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -30, 940, 710));
@@ -219,9 +201,9 @@ public class EstoqueEntrada extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
-        dispose();
-    }//GEN-LAST:event_jButton21ActionPerformed
+    private void mybtn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mybtn5ActionPerformed
+       dispose();
+    }//GEN-LAST:event_mybtn5ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -262,9 +244,6 @@ public class EstoqueEntrada extends javax.swing.JFrame {
     private javax.swing.JInternalFrame areaEntradas_entrada;
     private javax.swing.JPanel colorBtn19;
     private javax.swing.JPanel colorBtn20;
-    private javax.swing.JButton jButton19;
-    private javax.swing.JButton jButton21;
-    private javax.swing.JButton jButton22;
     private javax.swing.JDesktopPane jDesktopPane1;
     private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel31;
@@ -280,6 +259,9 @@ public class EstoqueEntrada extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField19;
     private javax.swing.JTextField jTextField20;
     private javax.swing.JTextField jTextField21;
+    private styles.Mybtn2 mybtn21;
+    private styles.Mybtn mybtn4;
+    private styles.Mybtn mybtn5;
     private javax.swing.JPanel panelEntradas1;
     // End of variables declaration//GEN-END:variables
 }

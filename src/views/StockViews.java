@@ -1,13 +1,14 @@
 package views;
 import AppPackage.AnimationClass;
 import java.awt.Color;
+import java.awt.Component;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
-
-
+import javax.swing.JInternalFrame;
+import javax.swing.JTextField;
 
 public class StockViews extends javax.swing.JFrame {
 
@@ -20,6 +21,56 @@ AnimationClass ac = new AnimationClass();
         painelMenu3.setVisible(false);
     }
 
+
+public void limparCalculoPorcoes() {
+    jTextField17.setText("");
+    jTextField22.setText("");
+    jTextField23.setText("");
+    jTextField24.setText("");
+    jTextField25.setText("");
+    jTextField26.setText("");
+    jTextField27.setText("");
+    jTextField28.setText("");
+    jTextField18.setText("");
+    jTextField21.setText("");
+
+    jTextField29.setText("");
+    jTextField30.setText("");
+    jTextField31.setText("");
+    jTextField32.setText("");
+    jTextField33.setText("");
+    jTextField34.setText("");
+    jTextField35.setText("");
+    jTextField36.setText("");
+    jTextField37.setText("");
+    jTextField38.setText("");
+    
+    jTextField39.setText("");
+    jTextField40.setText("");
+    jTextField41.setText("");
+    jTextField42.setText("");
+    jTextField43.setText("");
+    jTextField44.setText("");
+    jTextField45.setText("");
+    jTextField46.setText("");
+    jTextField47.setText("");
+    jTextField48.setText("");
+    
+    jTextField49.setText("");
+    jTextField50.setText("");
+    jTextField51.setText("");
+    jTextField52.setText("");
+    jTextField53.setText("");
+    jTextField54.setText("");
+    jTextField55.setText("");
+    jTextField56.setText("");
+    jTextField57.setText("");
+    jTextField58.setText("");
+    
+    jTextField59.setText("");
+    jTextField61.setText("");
+}
+
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -27,27 +78,31 @@ AnimationClass ac = new AnimationClass();
         jPanel1 = new javax.swing.JPanel();
         painelMenu1 = new javax.swing.JPanel();
         logo1 = new javax.swing.JLabel();
-        btnPedidos1 = new javax.swing.JButton();
+        buttonPedidos = new styles.MybtnMenu();
+        buttonNovoPedido = new styles.MybtnMenu2();
+        buttonVisualizarPedidos = new styles.MybtnMenu2();
+        buttonProdutos = new styles.MybtnMenu();
+        buttonEstoque = new styles.MybtnMenu();
         btnNovoPedido = new javax.swing.JButton();
         btnVisualizarPedidos = new javax.swing.JButton();
         btnProdutos1 = new javax.swing.JButton();
         btnEstoque1 = new javax.swing.JButton();
         painelMenu2 = new javax.swing.JPanel();
         logo2 = new javax.swing.JLabel();
-        btnPedidos2 = new javax.swing.JButton();
-        btnProdutos2 = new javax.swing.JButton();
-        btnLanches = new javax.swing.JButton();
-        btnIngredientes = new javax.swing.JButton();
-        btnFichaTecnica = new javax.swing.JButton();
-        btnCalculoPorcoes = new javax.swing.JButton();
-        btnEstoque2 = new javax.swing.JButton();
+        buttonPedidos1 = new styles.MybtnMenu();
+        buttonProdutos1 = new styles.MybtnMenu();
+        buttonEstoque1 = new styles.MybtnMenu();
+        buttonLanches = new styles.MybtnMenu2();
+        buttonIngredientes = new styles.MybtnMenu2();
+        buttonFichaTecnica = new styles.MybtnMenu2();
+        buttonCalculoPorcoes = new styles.MybtnMenu2();
         painelMenu3 = new javax.swing.JPanel();
         logo3 = new javax.swing.JLabel();
-        btnPedidos3 = new javax.swing.JButton();
-        btnProdutos3 = new javax.swing.JButton();
-        btnEstoque3 = new javax.swing.JButton();
-        btnEntradas = new javax.swing.JButton();
-        btnProdutosEstoque = new javax.swing.JButton();
+        buttonPedidos3 = new styles.MybtnMenu();
+        buttonProdutos3 = new styles.MybtnMenu();
+        buttonEstoque3 = new styles.MybtnMenu();
+        buttonEntradas = new styles.MybtnMenu2();
+        buttonProdutosEstoque = new styles.MybtnMenu2();
         areaPrincipal = new javax.swing.JDesktopPane();
         rodapePainel = new javax.swing.JPanel();
         lblCopyright = new javax.swing.JLabel();
@@ -56,7 +111,6 @@ AnimationClass ac = new AnimationClass();
         areaNovoPedido = new javax.swing.JInternalFrame();
         panelNP = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
         colorBtn1 = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
@@ -69,6 +123,7 @@ AnimationClass ac = new AnimationClass();
         fotoVP = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
+        mybtn1 = new styles.Mybtn();
         areaVisualizarPedidos = new javax.swing.JInternalFrame();
         panelVP = new javax.swing.JPanel();
         jLabel9 = new javax.swing.JLabel();
@@ -79,43 +134,43 @@ AnimationClass ac = new AnimationClass();
         jTextField3 = new javax.swing.JTextField();
         jScrollPane3 = new javax.swing.JScrollPane();
         table2 = new javaswingdev.swing.table.Table();
-        jButton2 = new javax.swing.JButton();
+        mybtn21 = new styles.Mybtn2();
         areaLanche = new javax.swing.JInternalFrame();
         panelLanche = new javax.swing.JPanel();
         fotoVP1 = new javax.swing.JPanel();
         jLabel12 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
+        mybtn22 = new styles.Mybtn2();
         jTextField4 = new javax.swing.JTextField();
-        jButton3 = new javax.swing.JButton();
         jLabel13 = new javax.swing.JLabel();
         jTextField5 = new javax.swing.JTextField();
         jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
         jTextField6 = new javax.swing.JTextField();
-        jButton4 = new javax.swing.JButton();
         colorBtn4 = new javax.swing.JPanel();
-        jButton5 = new javax.swing.JButton();
         colorBtn5 = new javax.swing.JPanel();
-        jButton6 = new javax.swing.JButton();
         colorBtn6 = new javax.swing.JPanel();
         jSeparator3 = new javax.swing.JSeparator();
         jScrollPane4 = new javax.swing.JScrollPane();
         table3 = new javaswingdev.swing.table.Table();
+        mybtn2 = new styles.Mybtn();
+        mybtn3 = new styles.Mybtn();
+        mybtn4 = new styles.Mybtn();
         areaIngredientes = new javax.swing.JInternalFrame();
         panelIngredientes = new javax.swing.JPanel();
         fotoVP2 = new javax.swing.JPanel();
         jLabel16 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
         jTextField7 = new javax.swing.JTextField();
-        jButton7 = new javax.swing.JButton();
+        mybtn23 = new styles.Mybtn2();
+        mybtn5 = new styles.Mybtn();
+        mybtn6 = new styles.Mybtn();
+        mybtn7 = new styles.Mybtn();
         jLabel17 = new javax.swing.JLabel();
         jTextField8 = new javax.swing.JTextField();
         jLabel18 = new javax.swing.JLabel();
-        jButton8 = new javax.swing.JButton();
         colorBtn7 = new javax.swing.JPanel();
-        jButton9 = new javax.swing.JButton();
         colorBtn8 = new javax.swing.JPanel();
-        jButton10 = new javax.swing.JButton();
         colorBtn9 = new javax.swing.JPanel();
         jSeparator4 = new javax.swing.JSeparator();
         jScrollPane5 = new javax.swing.JScrollPane();
@@ -124,15 +179,15 @@ AnimationClass ac = new AnimationClass();
         panelIngredientes1 = new javax.swing.JPanel();
         jLabel35 = new javax.swing.JLabel();
         jTextField19 = new javax.swing.JTextField();
-        jButton23 = new javax.swing.JButton();
+        mybtn24 = new styles.Mybtn2();
+        mybtn8 = new styles.Mybtn();
+        mybtn9 = new styles.Mybtn();
+        mybtn10 = new styles.Mybtn();
         jLabel36 = new javax.swing.JLabel();
         jTextField20 = new javax.swing.JTextField();
         jLabel37 = new javax.swing.JLabel();
-        jButton24 = new javax.swing.JButton();
         colorBtn19 = new javax.swing.JPanel();
-        jButton25 = new javax.swing.JButton();
         colorBtn20 = new javax.swing.JPanel();
-        jButton26 = new javax.swing.JButton();
         colorBtn21 = new javax.swing.JPanel();
         jSeparator8 = new javax.swing.JSeparator();
         jScrollPane9 = new javax.swing.JScrollPane();
@@ -147,12 +202,7 @@ AnimationClass ac = new AnimationClass();
         jTextField26 = new javax.swing.JTextField();
         jTextField27 = new javax.swing.JTextField();
         jTextField28 = new javax.swing.JTextField();
-        jLabel32 = new javax.swing.JLabel();
-        jLabel33 = new javax.swing.JLabel();
         jTextField18 = new javax.swing.JTextField();
-        jButton20 = new javax.swing.JButton();
-        colorBtn18 = new javax.swing.JPanel();
-        jSeparator7 = new javax.swing.JSeparator();
         jTextField21 = new javax.swing.JTextField();
         jTextField29 = new javax.swing.JTextField();
         jTextField30 = new javax.swing.JTextField();
@@ -185,28 +235,33 @@ AnimationClass ac = new AnimationClass();
         jTextField57 = new javax.swing.JTextField();
         jTextField58 = new javax.swing.JTextField();
         jTextField59 = new javax.swing.JTextField();
-        jTextField60 = new javax.swing.JTextField();
         jTextField61 = new javax.swing.JTextField();
+        jLabel32 = new javax.swing.JLabel();
+        jLabel33 = new javax.swing.JLabel();
+        colorBtn18 = new javax.swing.JPanel();
+        colorBtn22 = new javax.swing.JPanel();
+        mybtn11 = new styles.Mybtn();
+        mybtn12 = new styles.Mybtn();
+        jSeparator7 = new javax.swing.JSeparator();
+        jTextField60 = new javax.swing.JTextField();
         jLabel34 = new javax.swing.JLabel();
         jLabel38 = new javax.swing.JLabel();
         jLabel39 = new javax.swing.JLabel();
         jLabel40 = new javax.swing.JLabel();
         jLabel41 = new javax.swing.JLabel();
-        jButton21 = new javax.swing.JButton();
-        colorBtn22 = new javax.swing.JPanel();
         areaEntradas = new javax.swing.JInternalFrame();
         panelEntradas = new javax.swing.JPanel();
         jLabel26 = new javax.swing.JLabel();
         jTextField13 = new javax.swing.JTextField();
-        jButton15 = new javax.swing.JButton();
+        mybtn25 = new styles.Mybtn2();
+        mybtn13 = new styles.Mybtn();
+        mybtn14 = new styles.Mybtn();
+        mybtn15 = new styles.Mybtn();
         jLabel27 = new javax.swing.JLabel();
         jTextField14 = new javax.swing.JTextField();
         jLabel28 = new javax.swing.JLabel();
-        jButton16 = new javax.swing.JButton();
         colorBtn15 = new javax.swing.JPanel();
-        jButton17 = new javax.swing.JButton();
         colorBtn16 = new javax.swing.JPanel();
-        jButton18 = new javax.swing.JButton();
         colorBtn17 = new javax.swing.JPanel();
         jSeparator6 = new javax.swing.JSeparator();
         jScrollPane7 = new javax.swing.JScrollPane();
@@ -219,7 +274,7 @@ AnimationClass ac = new AnimationClass();
         jLabel19 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
         jTextField9 = new javax.swing.JTextField();
-        jButton11 = new javax.swing.JButton();
+        mybtn26 = new styles.Mybtn2();
         jLabel21 = new javax.swing.JLabel();
         jTextField10 = new javax.swing.JTextField();
         jLabel22 = new javax.swing.JLabel();
@@ -232,7 +287,6 @@ AnimationClass ac = new AnimationClass();
         jLabel24 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMaximumSize(new java.awt.Dimension(1920, 1020));
         setUndecorated(true);
         setResizable(false);
 
@@ -242,30 +296,62 @@ AnimationClass ac = new AnimationClass();
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         painelMenu1.setBackground(new java.awt.Color(217, 217, 217));
-        painelMenu1.setMaximumSize(new java.awt.Dimension(250, 1020));
-        painelMenu1.setMinimumSize(new java.awt.Dimension(250, 1020));
-        painelMenu1.setPreferredSize(new java.awt.Dimension(250, 1020));
+        painelMenu1.setMaximumSize(new java.awt.Dimension(300, 1020));
+        painelMenu1.setMinimumSize(new java.awt.Dimension(300, 1020));
+        painelMenu1.setPreferredSize(new java.awt.Dimension(300, 1020));
         painelMenu1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         logo1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/logo full.png"))); // NOI18N
-        painelMenu1.add(logo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 30, 120, 120));
+        painelMenu1.add(logo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 30, 120, 120));
 
-        btnPedidos1.setBackground(new java.awt.Color(192, 192, 192));
-        btnPedidos1.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        btnPedidos1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/carrinho-de-compras.png"))); // NOI18N
-        btnPedidos1.setText(" Pedidos");
-        btnPedidos1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(211, 211, 211)));
-        btnPedidos1.setContentAreaFilled(false);
-        btnPedidos1.setDefaultCapable(false);
-        btnPedidos1.setHideActionText(true);
-        btnPedidos1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        btnPedidos1.setOpaque(true);
-        btnPedidos1.addActionListener(new java.awt.event.ActionListener() {
+        buttonPedidos.setBackground(new java.awt.Color(192, 192, 192));
+        buttonPedidos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/compra.png"))); // NOI18N
+        buttonPedidos.setText(" Pedidos");
+        buttonPedidos.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        buttonPedidos.setOpaque(true);
+        painelMenu1.add(buttonPedidos, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 175, 280, 70));
+
+        buttonNovoPedido.setBackground(new java.awt.Color(192, 192, 192));
+        buttonNovoPedido.setText("     Novo Pedido");
+        buttonNovoPedido.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        buttonNovoPedido.setOpaque(true);
+        buttonNovoPedido.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnPedidos1ActionPerformed(evt);
+                buttonNovoPedidoActionPerformed(evt);
             }
         });
-        painelMenu1.add(btnPedidos1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 175, 250, 60));
+        painelMenu1.add(buttonNovoPedido, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 255, 250, 70));
+
+        buttonVisualizarPedidos.setBackground(new java.awt.Color(211, 211, 211));
+        buttonVisualizarPedidos.setText("     Visualizar Pedidos");
+        buttonVisualizarPedidos.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        buttonVisualizarPedidos.setOpaque(true);
+        buttonVisualizarPedidos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buttonVisualizarPedidosActionPerformed(evt);
+            }
+        });
+        painelMenu1.add(buttonVisualizarPedidos, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 335, 250, 70));
+
+        buttonProdutos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/produtos.png"))); // NOI18N
+        buttonProdutos.setText(" Produtos");
+        buttonProdutos.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        buttonProdutos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buttonProdutosActionPerformed(evt);
+            }
+        });
+        painelMenu1.add(buttonProdutos, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 420, 280, 70));
+
+        buttonEstoque.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/estoque.png"))); // NOI18N
+        buttonEstoque.setText("Estoque");
+        buttonEstoque.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        buttonEstoque.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buttonEstoqueActionPerformed(evt);
+            }
+        });
+        painelMenu1.add(buttonEstoque, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 505, 280, 70));
 
         btnNovoPedido.setBackground(new java.awt.Color(192, 192, 192));
         btnNovoPedido.setFont(new java.awt.Font("Segoe UI Semibold", 1, 18)); // NOI18N
@@ -285,7 +371,7 @@ AnimationClass ac = new AnimationClass();
                 btnNovoPedidoActionPerformed(evt);
             }
         });
-        painelMenu1.add(btnNovoPedido, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 245, 240, 60));
+        painelMenu1.add(btnNovoPedido, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 255, 250, 70));
 
         btnVisualizarPedidos.setBackground(new java.awt.Color(211, 211, 211));
         btnVisualizarPedidos.setFont(new java.awt.Font("Segoe UI Semibold", 1, 18)); // NOI18N
@@ -305,7 +391,7 @@ AnimationClass ac = new AnimationClass();
                 btnVisualizarPedidosActionPerformed(evt);
             }
         });
-        painelMenu1.add(btnVisualizarPedidos, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 315, 240, 60));
+        painelMenu1.add(btnVisualizarPedidos, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 335, 250, 70));
 
         btnProdutos1.setBackground(new java.awt.Color(211, 211, 211));
         btnProdutos1.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
@@ -323,11 +409,11 @@ AnimationClass ac = new AnimationClass();
                 btnProdutos1ActionPerformed(evt);
             }
         });
-        painelMenu1.add(btnProdutos1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 385, 250, 60));
+        painelMenu1.add(btnProdutos1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 420, 280, 70));
 
         btnEstoque1.setBackground(new java.awt.Color(211, 211, 211));
         btnEstoque1.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        btnEstoque1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/estoque 1.png"))); // NOI18N
+        btnEstoque1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/estoque.png"))); // NOI18N
         btnEstoque1.setText(" Estoque");
         btnEstoque1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(211, 211, 211)));
         btnEstoque1.setContentAreaFilled(false);
@@ -341,256 +427,161 @@ AnimationClass ac = new AnimationClass();
                 btnEstoque1ActionPerformed(evt);
             }
         });
-        painelMenu1.add(btnEstoque1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 455, 250, 60));
+        painelMenu1.add(btnEstoque1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 505, 280, 70));
 
-        jPanel1.add(painelMenu1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 250, 1020));
+        jPanel1.add(painelMenu1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 280, 1020));
 
         painelMenu2.setBackground(new java.awt.Color(217, 217, 217));
-        painelMenu2.setMaximumSize(new java.awt.Dimension(250, 1020));
-        painelMenu2.setMinimumSize(new java.awt.Dimension(250, 1020));
+        painelMenu2.setMaximumSize(new java.awt.Dimension(300, 1020));
+        painelMenu2.setMinimumSize(new java.awt.Dimension(300, 1020));
+        painelMenu2.setPreferredSize(new java.awt.Dimension(300, 1020));
         painelMenu2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         logo2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/logo full.png"))); // NOI18N
-        painelMenu2.add(logo2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 30, 120, 120));
+        painelMenu2.add(logo2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 30, 120, 120));
 
-        btnPedidos2.setBackground(new java.awt.Color(211, 211, 211));
-        btnPedidos2.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        btnPedidos2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/carrinho-de-compras.png"))); // NOI18N
-        btnPedidos2.setText(" Pedidos");
-        btnPedidos2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(211, 211, 211)));
-        btnPedidos2.setContentAreaFilled(false);
-        btnPedidos2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnPedidos2.setDefaultCapable(false);
-        btnPedidos2.setHideActionText(true);
-        btnPedidos2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        btnPedidos2.setOpaque(true);
-        btnPedidos2.addActionListener(new java.awt.event.ActionListener() {
+        buttonPedidos1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/compra.png"))); // NOI18N
+        buttonPedidos1.setText(" Pedidos");
+        buttonPedidos1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        buttonPedidos1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnPedidos2ActionPerformed(evt);
+                buttonPedidos1ActionPerformed(evt);
             }
         });
-        painelMenu2.add(btnPedidos2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 175, 250, 60));
+        painelMenu2.add(buttonPedidos1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 175, 280, 70));
 
-        btnProdutos2.setBackground(new java.awt.Color(192, 192, 192));
-        btnProdutos2.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        btnProdutos2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/produtos.png"))); // NOI18N
-        btnProdutos2.setText(" Produtos");
-        btnProdutos2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(211, 211, 211)));
-        btnProdutos2.setContentAreaFilled(false);
-        btnProdutos2.setDefaultCapable(false);
-        btnProdutos2.setHideActionText(true);
-        btnProdutos2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        btnProdutos2.setOpaque(true);
-        btnProdutos2.addActionListener(new java.awt.event.ActionListener() {
+        buttonProdutos1.setBackground(new java.awt.Color(192, 192, 192));
+        buttonProdutos1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/produtos.png"))); // NOI18N
+        buttonProdutos1.setText(" Produtos");
+        buttonProdutos1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        buttonProdutos1.setOpaque(true);
+        buttonProdutos1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnProdutos2ActionPerformed(evt);
+                buttonProdutos1ActionPerformed(evt);
             }
         });
-        painelMenu2.add(btnProdutos2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 245, 250, 60));
+        painelMenu2.add(buttonProdutos1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 260, 280, 70));
 
-        btnLanches.setBackground(new java.awt.Color(192, 192, 192));
-        btnLanches.setFont(new java.awt.Font("Segoe UI Semibold", 1, 18)); // NOI18N
-        btnLanches.setForeground(new java.awt.Color(56, 56, 56));
-        btnLanches.setText("     Lanches");
-        btnLanches.setActionCommand("   Novo Pedido");
-        btnLanches.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(211, 211, 211)));
-        btnLanches.setContentAreaFilled(false);
-        btnLanches.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnLanches.setDefaultCapable(false);
-        btnLanches.setHideActionText(true);
-        btnLanches.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        btnLanches.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
-        btnLanches.setOpaque(true);
-        btnLanches.addActionListener(new java.awt.event.ActionListener() {
+        buttonEstoque1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/estoque.png"))); // NOI18N
+        buttonEstoque1.setText(" Estoque");
+        buttonEstoque1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        buttonEstoque1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnLanchesActionPerformed(evt);
+                buttonEstoque1ActionPerformed(evt);
             }
         });
-        painelMenu2.add(btnLanches, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 315, 240, 60));
+        painelMenu2.add(buttonEstoque1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 665, 280, 70));
 
-        btnIngredientes.setBackground(new java.awt.Color(211, 211, 211));
-        btnIngredientes.setFont(new java.awt.Font("Segoe UI Semibold", 1, 18)); // NOI18N
-        btnIngredientes.setForeground(new java.awt.Color(56, 56, 56));
-        btnIngredientes.setText("     Ingredientes");
-        btnIngredientes.setActionCommand("   Visualizar Pedidos");
-        btnIngredientes.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(211, 211, 211)));
-        btnIngredientes.setContentAreaFilled(false);
-        btnIngredientes.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnIngredientes.setDefaultCapable(false);
-        btnIngredientes.setHideActionText(true);
-        btnIngredientes.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        btnIngredientes.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
-        btnIngredientes.setOpaque(true);
-        btnIngredientes.addActionListener(new java.awt.event.ActionListener() {
+        buttonLanches.setBackground(new java.awt.Color(192, 192, 192));
+        buttonLanches.setText("     Lanches");
+        buttonLanches.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        buttonLanches.setOpaque(true);
+        buttonLanches.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnIngredientesActionPerformed(evt);
+                buttonLanchesActionPerformed(evt);
             }
         });
-        painelMenu2.add(btnIngredientes, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 385, 240, 60));
+        painelMenu2.add(buttonLanches, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 340, 250, 70));
 
-        btnFichaTecnica.setBackground(new java.awt.Color(211, 211, 211));
-        btnFichaTecnica.setFont(new java.awt.Font("Segoe UI Semibold", 1, 18)); // NOI18N
-        btnFichaTecnica.setForeground(new java.awt.Color(56, 56, 56));
-        btnFichaTecnica.setText("     Ficha Técnica");
-        btnFichaTecnica.setActionCommand("   Novo Pedido");
-        btnFichaTecnica.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(211, 211, 211)));
-        btnFichaTecnica.setContentAreaFilled(false);
-        btnFichaTecnica.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnFichaTecnica.setDefaultCapable(false);
-        btnFichaTecnica.setHideActionText(true);
-        btnFichaTecnica.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        btnFichaTecnica.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
-        btnFichaTecnica.setOpaque(true);
-        btnFichaTecnica.addActionListener(new java.awt.event.ActionListener() {
+        buttonIngredientes.setBackground(new java.awt.Color(192, 192, 192));
+        buttonIngredientes.setText("     Ingredientes");
+        buttonIngredientes.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        buttonIngredientes.setOpaque(true);
+        buttonIngredientes.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnFichaTecnicaActionPerformed(evt);
+                buttonIngredientesActionPerformed(evt);
             }
         });
-        painelMenu2.add(btnFichaTecnica, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 455, 240, 60));
+        painelMenu2.add(buttonIngredientes, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 420, 250, 70));
 
-        btnCalculoPorcoes.setBackground(new java.awt.Color(211, 211, 211));
-        btnCalculoPorcoes.setFont(new java.awt.Font("Segoe UI Semibold", 1, 18)); // NOI18N
-        btnCalculoPorcoes.setForeground(new java.awt.Color(56, 56, 56));
-        btnCalculoPorcoes.setText("     Cálculo de Porções");
-        btnCalculoPorcoes.setActionCommand("   Visualizar Pedidos");
-        btnCalculoPorcoes.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(211, 211, 211)));
-        btnCalculoPorcoes.setContentAreaFilled(false);
-        btnCalculoPorcoes.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnCalculoPorcoes.setDefaultCapable(false);
-        btnCalculoPorcoes.setHideActionText(true);
-        btnCalculoPorcoes.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        btnCalculoPorcoes.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
-        btnCalculoPorcoes.setOpaque(true);
-        btnCalculoPorcoes.addActionListener(new java.awt.event.ActionListener() {
+        buttonFichaTecnica.setBackground(new java.awt.Color(192, 192, 192));
+        buttonFichaTecnica.setText("     Ficha Técnica");
+        buttonFichaTecnica.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        buttonFichaTecnica.setOpaque(true);
+        buttonFichaTecnica.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnCalculoPorcoesActionPerformed(evt);
+                buttonFichaTecnicaActionPerformed(evt);
             }
         });
-        painelMenu2.add(btnCalculoPorcoes, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 525, 240, 60));
+        painelMenu2.add(buttonFichaTecnica, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 500, 250, 70));
 
-        btnEstoque2.setBackground(new java.awt.Color(211, 211, 211));
-        btnEstoque2.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        btnEstoque2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/estoque 1.png"))); // NOI18N
-        btnEstoque2.setText(" Estoque");
-        btnEstoque2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(211, 211, 211)));
-        btnEstoque2.setContentAreaFilled(false);
-        btnEstoque2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnEstoque2.setDefaultCapable(false);
-        btnEstoque2.setHideActionText(true);
-        btnEstoque2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        btnEstoque2.setOpaque(true);
-        btnEstoque2.addActionListener(new java.awt.event.ActionListener() {
+        buttonCalculoPorcoes.setBackground(new java.awt.Color(192, 192, 192));
+        buttonCalculoPorcoes.setText("     Cálculo de Porções");
+        buttonCalculoPorcoes.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        buttonCalculoPorcoes.setOpaque(true);
+        buttonCalculoPorcoes.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnEstoque2ActionPerformed(evt);
+                buttonCalculoPorcoesActionPerformed(evt);
             }
         });
-        painelMenu2.add(btnEstoque2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 595, 250, 60));
+        painelMenu2.add(buttonCalculoPorcoes, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 580, 250, 70));
 
-        jPanel1.add(painelMenu2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 250, 1020));
+        jPanel1.add(painelMenu2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 280, 1020));
 
         painelMenu3.setBackground(new java.awt.Color(217, 217, 217));
-        painelMenu3.setMaximumSize(new java.awt.Dimension(250, 1020));
-        painelMenu3.setMinimumSize(new java.awt.Dimension(250, 1020));
-        painelMenu3.setPreferredSize(new java.awt.Dimension(250, 1020));
+        painelMenu3.setMaximumSize(new java.awt.Dimension(300, 1020));
+        painelMenu3.setMinimumSize(new java.awt.Dimension(300, 1020));
+        painelMenu3.setPreferredSize(new java.awt.Dimension(300, 1020));
         painelMenu3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         logo3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/logo full.png"))); // NOI18N
-        painelMenu3.add(logo3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 30, 120, 120));
+        painelMenu3.add(logo3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 30, 120, 120));
 
-        btnPedidos3.setBackground(new java.awt.Color(211, 211, 211));
-        btnPedidos3.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        btnPedidos3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/carrinho-de-compras.png"))); // NOI18N
-        btnPedidos3.setText(" Pedidos");
-        btnPedidos3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(211, 211, 211)));
-        btnPedidos3.setContentAreaFilled(false);
-        btnPedidos3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnPedidos3.setDefaultCapable(false);
-        btnPedidos3.setHideActionText(true);
-        btnPedidos3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        btnPedidos3.setOpaque(true);
-        btnPedidos3.addActionListener(new java.awt.event.ActionListener() {
+        buttonPedidos3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/compra.png"))); // NOI18N
+        buttonPedidos3.setText(" Pedidos");
+        buttonPedidos3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        buttonPedidos3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnPedidos3ActionPerformed(evt);
+                buttonPedidos3ActionPerformed(evt);
             }
         });
-        painelMenu3.add(btnPedidos3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 175, 250, 60));
+        painelMenu3.add(buttonPedidos3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 175, 280, 70));
 
-        btnProdutos3.setBackground(new java.awt.Color(211, 211, 211));
-        btnProdutos3.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        btnProdutos3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/produtos.png"))); // NOI18N
-        btnProdutos3.setText(" Produtos");
-        btnProdutos3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(211, 211, 211)));
-        btnProdutos3.setContentAreaFilled(false);
-        btnProdutos3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnProdutos3.setDefaultCapable(false);
-        btnProdutos3.setHideActionText(true);
-        btnProdutos3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        btnProdutos3.setOpaque(true);
-        btnProdutos3.addActionListener(new java.awt.event.ActionListener() {
+        buttonProdutos3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/produtos.png"))); // NOI18N
+        buttonProdutos3.setText(" Produtos");
+        buttonProdutos3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        buttonProdutos3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnProdutos3ActionPerformed(evt);
+                buttonProdutos3ActionPerformed(evt);
             }
         });
-        painelMenu3.add(btnProdutos3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 245, 250, 60));
+        painelMenu3.add(buttonProdutos3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 260, 280, 70));
 
-        btnEstoque3.setBackground(new java.awt.Color(192, 192, 192));
-        btnEstoque3.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        btnEstoque3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/estoque 1.png"))); // NOI18N
-        btnEstoque3.setText(" Estoque");
-        btnEstoque3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(211, 211, 211)));
-        btnEstoque3.setContentAreaFilled(false);
-        btnEstoque3.setDefaultCapable(false);
-        btnEstoque3.setHideActionText(true);
-        btnEstoque3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        btnEstoque3.setOpaque(true);
-        btnEstoque3.addActionListener(new java.awt.event.ActionListener() {
+        buttonEstoque3.setBackground(new java.awt.Color(192, 192, 192));
+        buttonEstoque3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/estoque.png"))); // NOI18N
+        buttonEstoque3.setText(" Estoque");
+        buttonEstoque3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        buttonEstoque3.setOpaque(true);
+        buttonEstoque3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnEstoque3ActionPerformed(evt);
+                buttonEstoque3ActionPerformed(evt);
             }
         });
-        painelMenu3.add(btnEstoque3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 315, 250, 60));
+        painelMenu3.add(buttonEstoque3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 345, 280, 70));
 
-        btnEntradas.setBackground(new java.awt.Color(192, 192, 192));
-        btnEntradas.setFont(new java.awt.Font("Segoe UI Semibold", 1, 18)); // NOI18N
-        btnEntradas.setForeground(new java.awt.Color(56, 56, 56));
-        btnEntradas.setText("     Entradas");
-        btnEntradas.setActionCommand("   Novo Pedido");
-        btnEntradas.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(211, 211, 211)));
-        btnEntradas.setContentAreaFilled(false);
-        btnEntradas.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnEntradas.setDefaultCapable(false);
-        btnEntradas.setHideActionText(true);
-        btnEntradas.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        btnEntradas.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
-        btnEntradas.setOpaque(true);
-        btnEntradas.addActionListener(new java.awt.event.ActionListener() {
+        buttonEntradas.setBackground(new java.awt.Color(192, 192, 192));
+        buttonEntradas.setText("     Entradas");
+        buttonEntradas.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        buttonEntradas.setOpaque(true);
+        buttonEntradas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnEntradasActionPerformed(evt);
+                buttonEntradasActionPerformed(evt);
             }
         });
-        painelMenu3.add(btnEntradas, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 385, 240, 60));
+        painelMenu3.add(buttonEntradas, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 425, 250, 70));
 
-        btnProdutosEstoque.setBackground(new java.awt.Color(211, 211, 211));
-        btnProdutosEstoque.setFont(new java.awt.Font("Segoe UI Semibold", 1, 18)); // NOI18N
-        btnProdutosEstoque.setForeground(new java.awt.Color(56, 56, 56));
-        btnProdutosEstoque.setText("     Produtos em Estoque");
-        btnProdutosEstoque.setActionCommand("   Visualizar Pedidos");
-        btnProdutosEstoque.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(211, 211, 211)));
-        btnProdutosEstoque.setContentAreaFilled(false);
-        btnProdutosEstoque.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnProdutosEstoque.setDefaultCapable(false);
-        btnProdutosEstoque.setHideActionText(true);
-        btnProdutosEstoque.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        btnProdutosEstoque.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
-        btnProdutosEstoque.setOpaque(true);
-        btnProdutosEstoque.addActionListener(new java.awt.event.ActionListener() {
+        buttonProdutosEstoque.setBackground(new java.awt.Color(192, 192, 192));
+        buttonProdutosEstoque.setText("     Produtos em estoque");
+        buttonProdutosEstoque.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        buttonProdutosEstoque.setOpaque(true);
+        buttonProdutosEstoque.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnProdutosEstoqueActionPerformed(evt);
+                buttonProdutosEstoqueActionPerformed(evt);
             }
         });
-        painelMenu3.add(btnProdutosEstoque, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 455, 240, 60));
+        painelMenu3.add(buttonProdutosEstoque, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 505, 250, 70));
 
-        jPanel1.add(painelMenu3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 250, 1020));
+        jPanel1.add(painelMenu3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 280, 1020));
 
         areaPrincipal.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -606,7 +597,7 @@ AnimationClass ac = new AnimationClass();
         rodapePainelLayout.setHorizontalGroup(
             rodapePainelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, rodapePainelLayout.createSequentialGroup()
-                .addContainerGap(1164, Short.MAX_VALUE)
+                .addContainerGap(1034, Short.MAX_VALUE)
                 .addComponent(lblCopyright, javax.swing.GroupLayout.PREFERRED_SIZE, 477, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(39, 39, 39))
         );
@@ -617,7 +608,7 @@ AnimationClass ac = new AnimationClass();
                 .addContainerGap())
         );
 
-        areaPrincipal.add(rodapePainel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 980, 1680, 50));
+        areaPrincipal.add(rodapePainel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 980, 1550, 50));
 
         bordaPainel.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -635,49 +626,37 @@ AnimationClass ac = new AnimationClass();
         bordaPainelLayout.setHorizontalGroup(
             bordaPainelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, bordaPainelLayout.createSequentialGroup()
-                .addContainerGap(30, Short.MAX_VALUE)
+                .addContainerGap(36, Short.MAX_VALUE)
                 .addComponent(btnSair)
-                .addGap(26, 26, 26))
+                .addGap(20, 20, 20))
         );
         bordaPainelLayout.setVerticalGroup(
             bordaPainelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(bordaPainelLayout.createSequentialGroup()
-                .addGap(20, 20, 20)
+                .addGap(17, 17, 17)
                 .addComponent(btnSair)
-                .addContainerGap(975, Short.MAX_VALUE))
+                .addContainerGap(969, Short.MAX_VALUE))
         );
 
-        areaPrincipal.add(bordaPainel, new org.netbeans.lib.awtextra.AbsoluteConstraints(1580, 0, 90, 1020));
+        areaPrincipal.add(bordaPainel, new org.netbeans.lib.awtextra.AbsoluteConstraints(1460, 0, 90, 1020));
 
         areaNovoPedido.setBackground(new java.awt.Color(255, 255, 255));
         areaNovoPedido.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
-        areaNovoPedido.setMaximumSize(new java.awt.Dimension(1702, 1070));
-        areaNovoPedido.setMinimumSize(new java.awt.Dimension(1702, 1070));
-        areaNovoPedido.setPreferredSize(new java.awt.Dimension(1702, 1070));
+        areaNovoPedido.setMaximumSize(new java.awt.Dimension(1460, 1070));
+        areaNovoPedido.setMinimumSize(new java.awt.Dimension(1460, 1070));
+        areaNovoPedido.setPreferredSize(new java.awt.Dimension(1460, 1070));
         areaNovoPedido.setVisible(true);
         areaNovoPedido.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         panelNP.setBackground(new java.awt.Color(255, 255, 255));
-        panelNP.setMaximumSize(new java.awt.Dimension(1690, 1020));
-        panelNP.setMinimumSize(new java.awt.Dimension(1690, 1020));
-        panelNP.setPreferredSize(new java.awt.Dimension(1690, 1020));
+        panelNP.setMaximumSize(new java.awt.Dimension(1460, 1020));
+        panelNP.setMinimumSize(new java.awt.Dimension(1460, 1020));
+        panelNP.setPreferredSize(new java.awt.Dimension(1460, 1020));
         panelNP.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel3.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
         jLabel3.setText("Quantidade");
         panelNP.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 100, 100, 30));
-
-        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(109, 109, 109));
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/check mark.png"))); // NOI18N
-        jButton1.setText("FINALIZAR");
-        jButton1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jButton1.setContentAreaFilled(false);
-        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jButton1.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-        jButton1.setRequestFocusEnabled(false);
-        panelNP.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 50, 129, 40));
 
         colorBtn1.setBackground(new java.awt.Color(117, 166, 119));
 
@@ -692,7 +671,7 @@ AnimationClass ac = new AnimationClass();
             .addGap(0, 40, Short.MAX_VALUE)
         );
 
-        panelNP.add(colorBtn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 50, 10, 40));
+        panelNP.add(colorBtn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1257, 50, 10, 40));
 
         jLabel6.setFont(new java.awt.Font("Segoe UI Semibold", 1, 20)); // NOI18N
         jLabel6.setText("Ficha Técnica");
@@ -714,6 +693,7 @@ AnimationClass ac = new AnimationClass();
         combobox1.setLabeText("");
         panelNP.add(combobox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, 220, 40));
 
+        spinner2.setBackground(new java.awt.Color(51, 51, 255));
         spinner2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
         spinner2.setLabelText("");
         panelNP.add(spinner2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 130, 102, 45));
@@ -779,15 +759,20 @@ AnimationClass ac = new AnimationClass();
         jTextField1.setOpaque(true);
         panelNP.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 130, 102, 45));
 
-        areaNovoPedido.getContentPane().add(panelNP, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1610, 1050));
+        mybtn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/check mark.png"))); // NOI18N
+        mybtn1.setText("FINALIZAR");
+        mybtn1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        panelNP.add(mybtn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1270, 50, 129, 40));
 
-        areaPrincipal.add(areaNovoPedido, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -30, 1610, 1025));
+        areaNovoPedido.getContentPane().add(panelNP, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1460, 1050));
+
+        areaPrincipal.add(areaNovoPedido, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -30, 1460, 1025));
 
         areaVisualizarPedidos.setBackground(new java.awt.Color(255, 255, 255));
         areaVisualizarPedidos.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
-        areaVisualizarPedidos.setMaximumSize(new java.awt.Dimension(1702, 1070));
-        areaVisualizarPedidos.setMinimumSize(new java.awt.Dimension(1702, 1070));
-        areaVisualizarPedidos.setPreferredSize(new java.awt.Dimension(1702, 1070));
+        areaVisualizarPedidos.setMaximumSize(new java.awt.Dimension(1460, 1070));
+        areaVisualizarPedidos.setMinimumSize(new java.awt.Dimension(1460, 1070));
+        areaVisualizarPedidos.setPreferredSize(new java.awt.Dimension(1460, 1070));
         areaVisualizarPedidos.setVisible(true);
         areaVisualizarPedidos.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -857,21 +842,18 @@ AnimationClass ac = new AnimationClass();
 
         panelVP.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 360, 1160, 450));
 
-        jButton2.setText("OK");
-        jButton2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jButton2.setContentAreaFilled(false);
-        jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        panelVP.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 50, 47, 45));
+        mybtn21.setText("OK");
+        panelVP.add(mybtn21, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 50, 47, 45));
 
-        areaVisualizarPedidos.getContentPane().add(panelVP, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1610, 1000));
+        areaVisualizarPedidos.getContentPane().add(panelVP, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1460, 1000));
 
-        areaPrincipal.add(areaVisualizarPedidos, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -30, 1610, 1025));
+        areaPrincipal.add(areaVisualizarPedidos, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -30, 1460, 1025));
 
         areaLanche.setBackground(new java.awt.Color(255, 255, 255));
         areaLanche.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
-        areaLanche.setMaximumSize(new java.awt.Dimension(1702, 1070));
-        areaLanche.setMinimumSize(new java.awt.Dimension(1702, 1070));
-        areaLanche.setPreferredSize(new java.awt.Dimension(1702, 1070));
+        areaLanche.setMaximumSize(new java.awt.Dimension(1460, 1070));
+        areaLanche.setMinimumSize(new java.awt.Dimension(1460, 1070));
+        areaLanche.setPreferredSize(new java.awt.Dimension(1460, 1070));
         areaLanche.setVisible(true);
         areaLanche.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -912,15 +894,12 @@ AnimationClass ac = new AnimationClass();
         jLabel4.setOpaque(true);
         panelLanche.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, 40, 45));
 
+        mybtn22.setText("OK");
+        panelLanche.add(mybtn22, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 50, 47, 45));
+
         jTextField4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
         jTextField4.setName(""); // NOI18N
         panelLanche.add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, 100, 45));
-
-        jButton3.setText("OK");
-        jButton3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jButton3.setContentAreaFilled(false);
-        jButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        panelLanche.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 50, 47, 45));
 
         jLabel13.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
         jLabel13.setText("id");
@@ -948,24 +927,6 @@ AnimationClass ac = new AnimationClass();
         jTextField6.setOpaque(true);
         panelLanche.add(jTextField6, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 250, 140, 45));
 
-        jButton4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton4.setForeground(new java.awt.Color(109, 109, 109));
-        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/adicionar.png"))); // NOI18N
-        jButton4.setText("NOVO");
-        jButton4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jButton4.setContentAreaFilled(false);
-        jButton4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jButton4.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-        jButton4.setIconTextGap(5);
-        jButton4.setRequestFocusEnabled(false);
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
-            }
-        });
-        panelLanche.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 50, 129, 40));
-
         colorBtn4.setBackground(new java.awt.Color(90, 90, 90));
 
         javax.swing.GroupLayout colorBtn4Layout = new javax.swing.GroupLayout(colorBtn4);
@@ -979,25 +940,7 @@ AnimationClass ac = new AnimationClass();
             .addGap(0, 40, Short.MAX_VALUE)
         );
 
-        panelLanche.add(colorBtn4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 50, 10, 40));
-
-        jButton5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton5.setForeground(new java.awt.Color(109, 109, 109));
-        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/editar.png"))); // NOI18N
-        jButton5.setText("EDITAR");
-        jButton5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jButton5.setContentAreaFilled(false);
-        jButton5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jButton5.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-        jButton5.setIconTextGap(5);
-        jButton5.setRequestFocusEnabled(false);
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
-            }
-        });
-        panelLanche.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 100, 129, 40));
+        panelLanche.add(colorBtn4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1257, 50, 10, 40));
 
         colorBtn5.setBackground(new java.awt.Color(218, 151, 21));
 
@@ -1012,20 +955,7 @@ AnimationClass ac = new AnimationClass();
             .addGap(0, 40, Short.MAX_VALUE)
         );
 
-        panelLanche.add(colorBtn5, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 100, 10, 40));
-
-        jButton6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton6.setForeground(new java.awt.Color(109, 109, 109));
-        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/excluir.png"))); // NOI18N
-        jButton6.setText("EXCLUIR");
-        jButton6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jButton6.setContentAreaFilled(false);
-        jButton6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton6.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jButton6.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-        jButton6.setIconTextGap(5);
-        jButton6.setRequestFocusEnabled(false);
-        panelLanche.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 150, 129, 40));
+        panelLanche.add(colorBtn5, new org.netbeans.lib.awtextra.AbsoluteConstraints(1257, 100, 10, 40));
 
         colorBtn6.setBackground(new java.awt.Color(207, 131, 131));
 
@@ -1040,7 +970,7 @@ AnimationClass ac = new AnimationClass();
             .addGap(0, 40, Short.MAX_VALUE)
         );
 
-        panelLanche.add(colorBtn6, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 150, 10, 40));
+        panelLanche.add(colorBtn6, new org.netbeans.lib.awtextra.AbsoluteConstraints(1257, 150, 10, 40));
         panelLanche.add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, 1570, 30));
 
         table1.fixTable(jScrollPane4);
@@ -1073,15 +1003,40 @@ AnimationClass ac = new AnimationClass();
 
         panelLanche.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 360, 1160, 450));
 
-        areaLanche.getContentPane().add(panelLanche, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1610, 1000));
+        mybtn2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/adicionar.png"))); // NOI18N
+        mybtn2.setText("NOVO");
+        mybtn2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        mybtn2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mybtn2ActionPerformed(evt);
+            }
+        });
+        panelLanche.add(mybtn2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1270, 50, 129, 40));
 
-        areaPrincipal.add(areaLanche, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -30, 1610, 1025));
+        mybtn3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/editar.png"))); // NOI18N
+        mybtn3.setText("EDITAR");
+        mybtn3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        mybtn3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mybtn3ActionPerformed(evt);
+            }
+        });
+        panelLanche.add(mybtn3, new org.netbeans.lib.awtextra.AbsoluteConstraints(1270, 100, 129, 40));
+
+        mybtn4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/excluir.png"))); // NOI18N
+        mybtn4.setText("EXCLUIR");
+        mybtn4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        panelLanche.add(mybtn4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1270, 150, 129, 40));
+
+        areaLanche.getContentPane().add(panelLanche, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1460, 1000));
+
+        areaPrincipal.add(areaLanche, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -30, 1460, 1025));
 
         areaIngredientes.setBackground(new java.awt.Color(255, 255, 255));
         areaIngredientes.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
-        areaIngredientes.setMaximumSize(new java.awt.Dimension(1702, 1070));
-        areaIngredientes.setMinimumSize(new java.awt.Dimension(1702, 1070));
-        areaIngredientes.setPreferredSize(new java.awt.Dimension(1702, 1070));
+        areaIngredientes.setMaximumSize(new java.awt.Dimension(1460, 1070));
+        areaIngredientes.setMinimumSize(new java.awt.Dimension(1460, 1070));
+        areaIngredientes.setPreferredSize(new java.awt.Dimension(1460, 1070));
         areaIngredientes.setVisible(true);
         areaIngredientes.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -1126,11 +1081,33 @@ AnimationClass ac = new AnimationClass();
         jTextField7.setName(""); // NOI18N
         panelIngredientes.add(jTextField7, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, 100, 45));
 
-        jButton7.setText("OK");
-        jButton7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jButton7.setContentAreaFilled(false);
-        jButton7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        panelIngredientes.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 50, 47, 45));
+        mybtn23.setText("OK");
+        panelIngredientes.add(mybtn23, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 50, 47, 45));
+
+        mybtn5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/adicionar.png"))); // NOI18N
+        mybtn5.setText("NOVO");
+        mybtn5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        mybtn5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mybtn5ActionPerformed(evt);
+            }
+        });
+        panelIngredientes.add(mybtn5, new org.netbeans.lib.awtextra.AbsoluteConstraints(1270, 50, 129, 40));
+
+        mybtn6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/editar.png"))); // NOI18N
+        mybtn6.setText("EDITAR");
+        mybtn6.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        mybtn6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mybtn6ActionPerformed(evt);
+            }
+        });
+        panelIngredientes.add(mybtn6, new org.netbeans.lib.awtextra.AbsoluteConstraints(1270, 100, 129, 40));
+
+        mybtn7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/excluir.png"))); // NOI18N
+        mybtn7.setText("EXCLUIR");
+        mybtn7.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        panelIngredientes.add(mybtn7, new org.netbeans.lib.awtextra.AbsoluteConstraints(1270, 150, 129, 40));
 
         jLabel17.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
         jLabel17.setText("id");
@@ -1147,24 +1124,6 @@ AnimationClass ac = new AnimationClass();
         jLabel18.setText("Ingrediente");
         panelIngredientes.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, 180, 30));
 
-        jButton8.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton8.setForeground(new java.awt.Color(109, 109, 109));
-        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/adicionar.png"))); // NOI18N
-        jButton8.setText("NOVO");
-        jButton8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jButton8.setContentAreaFilled(false);
-        jButton8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton8.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jButton8.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-        jButton8.setIconTextGap(5);
-        jButton8.setRequestFocusEnabled(false);
-        jButton8.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton8ActionPerformed(evt);
-            }
-        });
-        panelIngredientes.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 50, 129, 40));
-
         colorBtn7.setBackground(new java.awt.Color(90, 90, 90));
 
         javax.swing.GroupLayout colorBtn7Layout = new javax.swing.GroupLayout(colorBtn7);
@@ -1178,25 +1137,7 @@ AnimationClass ac = new AnimationClass();
             .addGap(0, 40, Short.MAX_VALUE)
         );
 
-        panelIngredientes.add(colorBtn7, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 50, 10, 40));
-
-        jButton9.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton9.setForeground(new java.awt.Color(109, 109, 109));
-        jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/editar.png"))); // NOI18N
-        jButton9.setText("EDITAR");
-        jButton9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jButton9.setContentAreaFilled(false);
-        jButton9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton9.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jButton9.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-        jButton9.setIconTextGap(5);
-        jButton9.setRequestFocusEnabled(false);
-        jButton9.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton9ActionPerformed(evt);
-            }
-        });
-        panelIngredientes.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 100, 129, 40));
+        panelIngredientes.add(colorBtn7, new org.netbeans.lib.awtextra.AbsoluteConstraints(1257, 50, 10, 40));
 
         colorBtn8.setBackground(new java.awt.Color(218, 151, 21));
 
@@ -1211,20 +1152,7 @@ AnimationClass ac = new AnimationClass();
             .addGap(0, 40, Short.MAX_VALUE)
         );
 
-        panelIngredientes.add(colorBtn8, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 100, 10, 40));
-
-        jButton10.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton10.setForeground(new java.awt.Color(109, 109, 109));
-        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/excluir.png"))); // NOI18N
-        jButton10.setText("EXCLUIR");
-        jButton10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jButton10.setContentAreaFilled(false);
-        jButton10.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton10.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jButton10.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-        jButton10.setIconTextGap(5);
-        jButton10.setRequestFocusEnabled(false);
-        panelIngredientes.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 150, 129, 40));
+        panelIngredientes.add(colorBtn8, new org.netbeans.lib.awtextra.AbsoluteConstraints(1257, 100, 10, 40));
 
         colorBtn9.setBackground(new java.awt.Color(207, 131, 131));
 
@@ -1239,7 +1167,7 @@ AnimationClass ac = new AnimationClass();
             .addGap(0, 40, Short.MAX_VALUE)
         );
 
-        panelIngredientes.add(colorBtn9, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 150, 10, 40));
+        panelIngredientes.add(colorBtn9, new org.netbeans.lib.awtextra.AbsoluteConstraints(1257, 150, 10, 40));
         panelIngredientes.add(jSeparator4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, 1570, 30));
 
         table1.fixTable(jScrollPane5);
@@ -1284,15 +1212,15 @@ AnimationClass ac = new AnimationClass();
 
         panelIngredientes.add(jScrollPane5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 360, 1160, 450));
 
-        areaIngredientes.getContentPane().add(panelIngredientes, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1610, 1000));
+        areaIngredientes.getContentPane().add(panelIngredientes, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1460, 1000));
 
-        areaPrincipal.add(areaIngredientes, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -30, 1610, 1025));
+        areaPrincipal.add(areaIngredientes, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -30, 1460, 1025));
 
         areaFichaTecnica.setBackground(new java.awt.Color(255, 255, 255));
         areaFichaTecnica.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
-        areaFichaTecnica.setMaximumSize(new java.awt.Dimension(1702, 1070));
-        areaFichaTecnica.setMinimumSize(new java.awt.Dimension(1702, 1070));
-        areaFichaTecnica.setPreferredSize(new java.awt.Dimension(1702, 1070));
+        areaFichaTecnica.setMaximumSize(new java.awt.Dimension(1460, 1070));
+        areaFichaTecnica.setMinimumSize(new java.awt.Dimension(1460, 1070));
+        areaFichaTecnica.setPreferredSize(new java.awt.Dimension(1460, 1070));
         areaFichaTecnica.setVisible(true);
         areaFichaTecnica.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -1312,11 +1240,33 @@ AnimationClass ac = new AnimationClass();
         jTextField19.setName(""); // NOI18N
         panelIngredientes1.add(jTextField19, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, 100, 45));
 
-        jButton23.setText("OK");
-        jButton23.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jButton23.setContentAreaFilled(false);
-        jButton23.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        panelIngredientes1.add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 50, 47, 45));
+        mybtn24.setText("OK");
+        panelIngredientes1.add(mybtn24, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 50, 47, 45));
+
+        mybtn8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/adicionar.png"))); // NOI18N
+        mybtn8.setText("NOVO");
+        mybtn8.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        mybtn8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mybtn8ActionPerformed(evt);
+            }
+        });
+        panelIngredientes1.add(mybtn8, new org.netbeans.lib.awtextra.AbsoluteConstraints(1270, 50, 129, 40));
+
+        mybtn9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/editar.png"))); // NOI18N
+        mybtn9.setText("EDITAR");
+        mybtn9.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        mybtn9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mybtn9ActionPerformed(evt);
+            }
+        });
+        panelIngredientes1.add(mybtn9, new org.netbeans.lib.awtextra.AbsoluteConstraints(1270, 100, 129, 40));
+
+        mybtn10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/excluir.png"))); // NOI18N
+        mybtn10.setText("EXCLUIR");
+        mybtn10.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        panelIngredientes1.add(mybtn10, new org.netbeans.lib.awtextra.AbsoluteConstraints(1270, 150, 129, 40));
 
         jLabel36.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
         jLabel36.setText("id");
@@ -1333,24 +1283,6 @@ AnimationClass ac = new AnimationClass();
         jLabel37.setText("Lanche");
         panelIngredientes1.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, 180, 30));
 
-        jButton24.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton24.setForeground(new java.awt.Color(109, 109, 109));
-        jButton24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/adicionar.png"))); // NOI18N
-        jButton24.setText("NOVO");
-        jButton24.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jButton24.setContentAreaFilled(false);
-        jButton24.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton24.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jButton24.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-        jButton24.setIconTextGap(5);
-        jButton24.setRequestFocusEnabled(false);
-        jButton24.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton24ActionPerformed(evt);
-            }
-        });
-        panelIngredientes1.add(jButton24, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 50, 129, 40));
-
         colorBtn19.setBackground(new java.awt.Color(90, 90, 90));
 
         javax.swing.GroupLayout colorBtn19Layout = new javax.swing.GroupLayout(colorBtn19);
@@ -1364,25 +1296,7 @@ AnimationClass ac = new AnimationClass();
             .addGap(0, 40, Short.MAX_VALUE)
         );
 
-        panelIngredientes1.add(colorBtn19, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 50, 10, 40));
-
-        jButton25.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton25.setForeground(new java.awt.Color(109, 109, 109));
-        jButton25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/editar.png"))); // NOI18N
-        jButton25.setText("EDITAR");
-        jButton25.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jButton25.setContentAreaFilled(false);
-        jButton25.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton25.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jButton25.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-        jButton25.setIconTextGap(5);
-        jButton25.setRequestFocusEnabled(false);
-        jButton25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton25ActionPerformed(evt);
-            }
-        });
-        panelIngredientes1.add(jButton25, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 100, 129, 40));
+        panelIngredientes1.add(colorBtn19, new org.netbeans.lib.awtextra.AbsoluteConstraints(1257, 50, 10, 40));
 
         colorBtn20.setBackground(new java.awt.Color(218, 151, 21));
 
@@ -1397,20 +1311,7 @@ AnimationClass ac = new AnimationClass();
             .addGap(0, 40, Short.MAX_VALUE)
         );
 
-        panelIngredientes1.add(colorBtn20, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 100, 10, 40));
-
-        jButton26.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton26.setForeground(new java.awt.Color(109, 109, 109));
-        jButton26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/excluir.png"))); // NOI18N
-        jButton26.setText("EXCLUIR");
-        jButton26.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jButton26.setContentAreaFilled(false);
-        jButton26.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton26.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jButton26.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-        jButton26.setIconTextGap(5);
-        jButton26.setRequestFocusEnabled(false);
-        panelIngredientes1.add(jButton26, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 150, 129, 40));
+        panelIngredientes1.add(colorBtn20, new org.netbeans.lib.awtextra.AbsoluteConstraints(1257, 100, 10, 40));
 
         colorBtn21.setBackground(new java.awt.Color(207, 131, 131));
 
@@ -1425,7 +1326,7 @@ AnimationClass ac = new AnimationClass();
             .addGap(0, 40, Short.MAX_VALUE)
         );
 
-        panelIngredientes1.add(colorBtn21, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 150, 10, 40));
+        panelIngredientes1.add(colorBtn21, new org.netbeans.lib.awtextra.AbsoluteConstraints(1257, 150, 10, 40));
         panelIngredientes1.add(jSeparator8, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, 1570, 30));
 
         table1.fixTable(jScrollPane9);
@@ -1473,15 +1374,15 @@ AnimationClass ac = new AnimationClass();
 
         panelIngredientes1.add(jScrollPane9, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 360, 1160, 450));
 
-        areaFichaTecnica.getContentPane().add(panelIngredientes1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1610, 1000));
+        areaFichaTecnica.getContentPane().add(panelIngredientes1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1460, 1000));
 
-        areaPrincipal.add(areaFichaTecnica, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -30, 1610, 1025));
+        areaPrincipal.add(areaFichaTecnica, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -30, 1460, 1025));
 
         areaCalculoPorcoes.setBackground(new java.awt.Color(255, 255, 255));
         areaCalculoPorcoes.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
-        areaCalculoPorcoes.setMaximumSize(new java.awt.Dimension(1702, 1070));
-        areaCalculoPorcoes.setMinimumSize(new java.awt.Dimension(1702, 1070));
-        areaCalculoPorcoes.setPreferredSize(new java.awt.Dimension(1702, 1070));
+        areaCalculoPorcoes.setMaximumSize(new java.awt.Dimension(1460, 1070));
+        areaCalculoPorcoes.setMinimumSize(new java.awt.Dimension(1460, 1070));
+        areaCalculoPorcoes.setPreferredSize(new java.awt.Dimension(1460, 1070));
         areaCalculoPorcoes.setVisible(true);
         areaCalculoPorcoes.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -1523,51 +1424,9 @@ AnimationClass ac = new AnimationClass();
         jTextField28.setName(""); // NOI18N
         panelPE1.add(jTextField28, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 365, 100, 45));
 
-        jLabel32.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
-        jLabel32.setText("Produto/lanche");
-        panelPE1.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 60, 180, 30));
-
-        jLabel33.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
-        jLabel33.setText("Qnt.");
-        panelPE1.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 280, 100, 30));
-
         jTextField18.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
         jTextField18.setName(""); // NOI18N
         panelPE1.add(jTextField18, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 170, 140, 45));
-
-        jButton20.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton20.setForeground(new java.awt.Color(109, 109, 109));
-        jButton20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/limpar.png"))); // NOI18N
-        jButton20.setText("LIMPAR");
-        jButton20.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jButton20.setContentAreaFilled(false);
-        jButton20.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton20.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jButton20.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-        jButton20.setIconTextGap(5);
-        jButton20.setRequestFocusEnabled(false);
-        jButton20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton20ActionPerformed(evt);
-            }
-        });
-        panelPE1.add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 100, 129, 40));
-
-        colorBtn18.setBackground(new java.awt.Color(0, 0, 0));
-
-        javax.swing.GroupLayout colorBtn18Layout = new javax.swing.GroupLayout(colorBtn18);
-        colorBtn18.setLayout(colorBtn18Layout);
-        colorBtn18Layout.setHorizontalGroup(
-            colorBtn18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 10, Short.MAX_VALUE)
-        );
-        colorBtn18Layout.setVerticalGroup(
-            colorBtn18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 40, Short.MAX_VALUE)
-        );
-
-        panelPE1.add(colorBtn18, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 100, 10, 40));
-        panelPE1.add(jSeparator7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 250, 1570, 30));
 
         jTextField21.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
         jTextField21.setName(""); // NOI18N
@@ -1697,16 +1556,75 @@ AnimationClass ac = new AnimationClass();
         jTextField59.setName(""); // NOI18N
         panelPE1.add(jTextField59, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 805, 100, 45));
 
+        jTextField61.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
+        jTextField61.setName(""); // NOI18N
+        panelPE1.add(jTextField61, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 805, 100, 45));
+
+        jLabel32.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
+        jLabel32.setText("Produto/lanche");
+        panelPE1.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 60, 180, 30));
+
+        jLabel33.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
+        jLabel33.setText("Qnt.");
+        panelPE1.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 280, 100, 30));
+
+        colorBtn18.setBackground(new java.awt.Color(0, 0, 0));
+
+        javax.swing.GroupLayout colorBtn18Layout = new javax.swing.GroupLayout(colorBtn18);
+        colorBtn18.setLayout(colorBtn18Layout);
+        colorBtn18Layout.setHorizontalGroup(
+            colorBtn18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 10, Short.MAX_VALUE)
+        );
+        colorBtn18Layout.setVerticalGroup(
+            colorBtn18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        panelPE1.add(colorBtn18, new org.netbeans.lib.awtextra.AbsoluteConstraints(1257, 100, 10, 40));
+
+        colorBtn22.setBackground(new java.awt.Color(67, 0, 153));
+
+        javax.swing.GroupLayout colorBtn22Layout = new javax.swing.GroupLayout(colorBtn22);
+        colorBtn22.setLayout(colorBtn22Layout);
+        colorBtn22Layout.setHorizontalGroup(
+            colorBtn22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 10, Short.MAX_VALUE)
+        );
+        colorBtn22Layout.setVerticalGroup(
+            colorBtn22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        panelPE1.add(colorBtn22, new org.netbeans.lib.awtextra.AbsoluteConstraints(1257, 50, 10, 40));
+
+        mybtn11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/calculadora.png"))); // NOI18N
+        mybtn11.setText("CALCULAR");
+        mybtn11.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        mybtn11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mybtn11ActionPerformed(evt);
+            }
+        });
+        panelPE1.add(mybtn11, new org.netbeans.lib.awtextra.AbsoluteConstraints(1270, 50, 129, 40));
+
+        mybtn12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/limpar.png"))); // NOI18N
+        mybtn12.setText("LIMPAR");
+        mybtn12.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        mybtn12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mybtn12ActionPerformed(evt);
+            }
+        });
+        panelPE1.add(mybtn12, new org.netbeans.lib.awtextra.AbsoluteConstraints(1270, 100, 129, 40));
+        panelPE1.add(jSeparator7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 250, 1570, 30));
+
         jTextField60.setEditable(false);
         jTextField60.setBackground(new java.awt.Color(243, 243, 243));
         jTextField60.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
         jTextField60.setName(""); // NOI18N
         jTextField60.setOpaque(true);
         panelPE1.add(jTextField60, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 870, 210, 45));
-
-        jTextField61.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jTextField61.setName(""); // NOI18N
-        panelPE1.add(jTextField61, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 805, 100, 45));
 
         jLabel34.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
         jLabel34.setText("Custo Total de Produção (R$):");
@@ -1728,48 +1646,15 @@ AnimationClass ac = new AnimationClass();
         jLabel41.setText("Qnt. de porções");
         panelPE1.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, 140, 30));
 
-        jButton21.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton21.setForeground(new java.awt.Color(109, 109, 109));
-        jButton21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/calculadora.png"))); // NOI18N
-        jButton21.setText("CALCULAR");
-        jButton21.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jButton21.setContentAreaFilled(false);
-        jButton21.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton21.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jButton21.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-        jButton21.setIconTextGap(5);
-        jButton21.setRequestFocusEnabled(false);
-        jButton21.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton21ActionPerformed(evt);
-            }
-        });
-        panelPE1.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 50, 129, 40));
+        areaCalculoPorcoes.getContentPane().add(panelPE1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1460, 1000));
 
-        colorBtn22.setBackground(new java.awt.Color(67, 0, 153));
-
-        javax.swing.GroupLayout colorBtn22Layout = new javax.swing.GroupLayout(colorBtn22);
-        colorBtn22.setLayout(colorBtn22Layout);
-        colorBtn22Layout.setHorizontalGroup(
-            colorBtn22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 10, Short.MAX_VALUE)
-        );
-        colorBtn22Layout.setVerticalGroup(
-            colorBtn22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 40, Short.MAX_VALUE)
-        );
-
-        panelPE1.add(colorBtn22, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 50, 10, 40));
-
-        areaCalculoPorcoes.getContentPane().add(panelPE1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1610, 1000));
-
-        areaPrincipal.add(areaCalculoPorcoes, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -30, 1610, 1025));
+        areaPrincipal.add(areaCalculoPorcoes, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -30, 1460, 1025));
 
         areaEntradas.setBackground(new java.awt.Color(255, 255, 255));
         areaEntradas.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
-        areaEntradas.setMaximumSize(new java.awt.Dimension(1702, 1070));
-        areaEntradas.setMinimumSize(new java.awt.Dimension(1702, 1070));
-        areaEntradas.setPreferredSize(new java.awt.Dimension(1702, 1070));
+        areaEntradas.setMaximumSize(new java.awt.Dimension(1460, 1070));
+        areaEntradas.setMinimumSize(new java.awt.Dimension(1460, 1070));
+        areaEntradas.setPreferredSize(new java.awt.Dimension(1460, 1070));
         areaEntradas.setVisible(true);
         areaEntradas.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -1789,11 +1674,33 @@ AnimationClass ac = new AnimationClass();
         jTextField13.setName(""); // NOI18N
         panelEntradas.add(jTextField13, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, 100, 45));
 
-        jButton15.setText("OK");
-        jButton15.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jButton15.setContentAreaFilled(false);
-        jButton15.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        panelEntradas.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(203, 50, 47, 45));
+        mybtn25.setText("OK");
+        panelEntradas.add(mybtn25, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 50, 47, 45));
+
+        mybtn13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/adicionar.png"))); // NOI18N
+        mybtn13.setText("NOVO");
+        mybtn13.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        mybtn13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mybtn13ActionPerformed(evt);
+            }
+        });
+        panelEntradas.add(mybtn13, new org.netbeans.lib.awtextra.AbsoluteConstraints(1270, 50, 129, 40));
+
+        mybtn14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/editar.png"))); // NOI18N
+        mybtn14.setText("EDITAR");
+        mybtn14.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        mybtn14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mybtn14ActionPerformed(evt);
+            }
+        });
+        panelEntradas.add(mybtn14, new org.netbeans.lib.awtextra.AbsoluteConstraints(1270, 100, 129, 40));
+
+        mybtn15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/excluir.png"))); // NOI18N
+        mybtn15.setText("EXCLUIR");
+        mybtn15.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        panelEntradas.add(mybtn15, new org.netbeans.lib.awtextra.AbsoluteConstraints(1270, 150, 129, 40));
 
         jLabel27.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
         jLabel27.setText("id");
@@ -1810,24 +1717,6 @@ AnimationClass ac = new AnimationClass();
         jLabel28.setText("Ingrediente");
         panelEntradas.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, 180, 30));
 
-        jButton16.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton16.setForeground(new java.awt.Color(109, 109, 109));
-        jButton16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/adicionar.png"))); // NOI18N
-        jButton16.setText("NOVO");
-        jButton16.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jButton16.setContentAreaFilled(false);
-        jButton16.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton16.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jButton16.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-        jButton16.setIconTextGap(5);
-        jButton16.setRequestFocusEnabled(false);
-        jButton16.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton16ActionPerformed(evt);
-            }
-        });
-        panelEntradas.add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 50, 129, 40));
-
         colorBtn15.setBackground(new java.awt.Color(90, 90, 90));
 
         javax.swing.GroupLayout colorBtn15Layout = new javax.swing.GroupLayout(colorBtn15);
@@ -1841,25 +1730,7 @@ AnimationClass ac = new AnimationClass();
             .addGap(0, 40, Short.MAX_VALUE)
         );
 
-        panelEntradas.add(colorBtn15, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 50, 10, 40));
-
-        jButton17.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton17.setForeground(new java.awt.Color(109, 109, 109));
-        jButton17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/editar.png"))); // NOI18N
-        jButton17.setText("EDITAR");
-        jButton17.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jButton17.setContentAreaFilled(false);
-        jButton17.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton17.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jButton17.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-        jButton17.setIconTextGap(5);
-        jButton17.setRequestFocusEnabled(false);
-        jButton17.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton17ActionPerformed(evt);
-            }
-        });
-        panelEntradas.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 100, 129, 40));
+        panelEntradas.add(colorBtn15, new org.netbeans.lib.awtextra.AbsoluteConstraints(1257, 50, 10, 40));
 
         colorBtn16.setBackground(new java.awt.Color(218, 151, 21));
 
@@ -1874,20 +1745,7 @@ AnimationClass ac = new AnimationClass();
             .addGap(0, 40, Short.MAX_VALUE)
         );
 
-        panelEntradas.add(colorBtn16, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 100, 10, 40));
-
-        jButton18.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton18.setForeground(new java.awt.Color(109, 109, 109));
-        jButton18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/excluir.png"))); // NOI18N
-        jButton18.setText("EXCLUIR");
-        jButton18.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jButton18.setContentAreaFilled(false);
-        jButton18.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton18.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jButton18.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-        jButton18.setIconTextGap(5);
-        jButton18.setRequestFocusEnabled(false);
-        panelEntradas.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(1450, 150, 129, 40));
+        panelEntradas.add(colorBtn16, new org.netbeans.lib.awtextra.AbsoluteConstraints(1257, 100, 10, 40));
 
         colorBtn17.setBackground(new java.awt.Color(207, 131, 131));
 
@@ -1902,7 +1760,7 @@ AnimationClass ac = new AnimationClass();
             .addGap(0, 40, Short.MAX_VALUE)
         );
 
-        panelEntradas.add(colorBtn17, new org.netbeans.lib.awtextra.AbsoluteConstraints(1438, 150, 10, 40));
+        panelEntradas.add(colorBtn17, new org.netbeans.lib.awtextra.AbsoluteConstraints(1257, 150, 10, 40));
         panelEntradas.add(jSeparator6, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, 1570, 30));
 
         table1.fixTable(jScrollPane7);
@@ -1954,15 +1812,15 @@ AnimationClass ac = new AnimationClass();
         jLabel30.setText("Und. medida");
         panelEntradas.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 140, 140, 30));
 
-        areaEntradas.getContentPane().add(panelEntradas, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1610, 1000));
+        areaEntradas.getContentPane().add(panelEntradas, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1460, 1000));
 
-        areaPrincipal.add(areaEntradas, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -30, 1610, 1025));
+        areaPrincipal.add(areaEntradas, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -30, 1460, 1025));
 
         areaProdutoEstoque.setBackground(new java.awt.Color(255, 255, 255));
         areaProdutoEstoque.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
-        areaProdutoEstoque.setMaximumSize(new java.awt.Dimension(1702, 1070));
-        areaProdutoEstoque.setMinimumSize(new java.awt.Dimension(1702, 1070));
-        areaProdutoEstoque.setPreferredSize(new java.awt.Dimension(1702, 1070));
+        areaProdutoEstoque.setMaximumSize(new java.awt.Dimension(1460, 1070));
+        areaProdutoEstoque.setMinimumSize(new java.awt.Dimension(1460, 1070));
+        areaProdutoEstoque.setPreferredSize(new java.awt.Dimension(1460, 1070));
         areaProdutoEstoque.setVisible(true);
         areaProdutoEstoque.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -2007,11 +1865,8 @@ AnimationClass ac = new AnimationClass();
         jTextField9.setName(""); // NOI18N
         panelPE.add(jTextField9, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, 260, 45));
 
-        jButton11.setText("OK");
-        jButton11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(192, 192, 192)));
-        jButton11.setContentAreaFilled(false);
-        jButton11.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        panelPE.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(363, 50, 47, 45));
+        mybtn26.setText("OK");
+        panelPE.add(mybtn26, new org.netbeans.lib.awtextra.AbsoluteConstraints(363, 50, 47, 45));
 
         jLabel21.setFont(new java.awt.Font("Segoe UI Semibold", 1, 15)); // NOI18N
         jLabel21.setText("Pesquisar");
@@ -2092,17 +1947,17 @@ AnimationClass ac = new AnimationClass();
         jLabel24.setText("Und. medida");
         panelPE.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 220, 140, 30));
 
-        areaProdutoEstoque.getContentPane().add(panelPE, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1610, 1000));
+        areaProdutoEstoque.getContentPane().add(panelPE, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1460, 1000));
 
-        areaPrincipal.add(areaProdutoEstoque, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -30, 1610, 1025));
+        areaPrincipal.add(areaProdutoEstoque, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -30, 1460, 1025));
 
-        jPanel1.add(areaPrincipal, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 0, 1670, 1020));
+        jPanel1.add(areaPrincipal, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 0, 1640, 1020));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 1830, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2115,85 +1970,10 @@ AnimationClass ac = new AnimationClass();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnIngredientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIngredientesActionPerformed
-        btnIngredientes.setBackground(Color.decode("#C0C0C0"));
-        btnFichaTecnica.setBackground(Color.decode("#D3D3D3"));
-        btnCalculoPorcoes.setBackground(Color.decode("#D3D3D3"));
-        btnLanches.setBackground(Color.decode("#D3D3D3"));
-        
-        areaNovoPedido.setVisible(false);
-        areaVisualizarPedidos.setVisible(false);
-        areaLanche.setVisible(false);
-        areaIngredientes.setVisible(true);
-        areaProdutoEstoque.setVisible(false);
-        areaEntradas.setVisible(false);
-        areaFichaTecnica.setVisible(false);
-        areaCalculoPorcoes.setVisible(false);
-    }//GEN-LAST:event_btnIngredientesActionPerformed
-
-    private void btnEstoque2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEstoque2ActionPerformed
-        painelMenu1.setVisible(false);
-        painelMenu2.setVisible(false);
-        painelMenu3.setVisible(true);
-        
-        btnEntradas.setBackground(Color.decode("#C0C0C0"));
-        btnProdutosEstoque.setBackground(Color.decode("#D3D3D3"));
-        
-        areaNovoPedido.setVisible(false);
-        areaVisualizarPedidos.setVisible(false);
-        areaLanche.setVisible(false);
-        areaIngredientes.setVisible(false);
-        areaProdutoEstoque.setVisible(false);
-        areaEntradas.setVisible(true);
-        areaFichaTecnica.setVisible(false);
-        areaCalculoPorcoes.setVisible(false);
-    }//GEN-LAST:event_btnEstoque2ActionPerformed
-
-    private void btnLanchesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLanchesActionPerformed
-        btnIngredientes.setBackground(Color.decode("#D3D3D3"));
-        btnFichaTecnica.setBackground(Color.decode("#D3D3D3"));
-        btnCalculoPorcoes.setBackground(Color.decode("#D3D3D3"));
-        btnLanches.setBackground(Color.decode("#C0C0C0"));
-        
-        areaNovoPedido.setVisible(false);
-        areaVisualizarPedidos.setVisible(false);
-        areaLanche.setVisible(true);
-        areaIngredientes.setVisible(false);
-        areaProdutoEstoque.setVisible(false);
-        areaEntradas.setVisible(false);
-        areaFichaTecnica.setVisible(false);
-        areaCalculoPorcoes.setVisible(false);
-    }//GEN-LAST:event_btnLanchesActionPerformed
-
-    private void btnPedidos2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPedidos2ActionPerformed
-        btnNovoPedido.setBackground(Color.decode("#C0C0C0"));
-        btnVisualizarPedidos.setBackground(Color.decode("#D3D3D3"));
-        
-        painelMenu1.setVisible(true);
-        painelMenu2.setVisible(false);
-        painelMenu3.setVisible(false);
-
-        areaNovoPedido.setVisible(true);
-        areaVisualizarPedidos.setVisible(false);
-        areaLanche.setVisible(false);
-        areaIngredientes.setVisible(false);
-        areaProdutoEstoque.setVisible(false);
-        areaEntradas.setVisible(false);
-        areaFichaTecnica.setVisible(false);
-        areaCalculoPorcoes.setVisible(false);
-    }//GEN-LAST:event_btnPedidos2ActionPerformed
-
-    private void btnProdutos2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProdutos2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnProdutos2ActionPerformed
-
-    private void btnPedidos1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPedidos1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnPedidos1ActionPerformed
-
     private void btnNovoPedidoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNovoPedidoActionPerformed
         btnNovoPedido.setBackground(Color.decode("#C0C0C0"));
         btnVisualizarPedidos.setBackground(Color.decode("#D3D3D3"));
+
         
         areaNovoPedido.setVisible(true);
         areaVisualizarPedidos.setVisible(false);
@@ -2222,10 +2002,10 @@ AnimationClass ac = new AnimationClass();
     }//GEN-LAST:event_btnVisualizarPedidosActionPerformed
 
     private void btnProdutos1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProdutos1ActionPerformed
-        btnIngredientes.setBackground(Color.decode("#D3D3D3"));
-        btnFichaTecnica.setBackground(Color.decode("#D3D3D3"));
-        btnCalculoPorcoes.setBackground(Color.decode("#D3D3D3"));
-        btnLanches.setBackground(Color.decode("#C0C0C0"));
+        buttonIngredientes.setBackground(Color.decode("#D3D3D3"));
+        buttonFichaTecnica.setBackground(Color.decode("#D3D3D3"));
+        buttonCalculoPorcoes.setBackground(Color.decode("#D3D3D3"));
+        buttonLanches.setBackground(Color.decode("#C0C0C0"));
         
         painelMenu1.setVisible(false);
         painelMenu2.setVisible(true);
@@ -2244,8 +2024,8 @@ AnimationClass ac = new AnimationClass();
     }//GEN-LAST:event_btnProdutos1ActionPerformed
 
     private void btnEstoque1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEstoque1ActionPerformed
-        btnEntradas.setBackground(Color.decode("#C0C0C0"));
-        btnProdutosEstoque.setBackground(Color.decode("#D3D3D3"));
+        buttonEntradas.setBackground(Color.decode("#C0C0C0"));
+        buttonProdutosEstoque.setBackground(Color.decode("#D3D3D3"));
 
         painelMenu1.setVisible(false);
         painelMenu2.setVisible(false);
@@ -2261,11 +2041,178 @@ AnimationClass ac = new AnimationClass();
         areaCalculoPorcoes.setVisible(false);
     }//GEN-LAST:event_btnEstoque1ActionPerformed
 
-    private void btnFichaTecnicaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFichaTecnicaActionPerformed
-        btnIngredientes.setBackground(Color.decode("#D3D3D3"));
-        btnFichaTecnica.setBackground(Color.decode("#C0C0C0"));
-        btnCalculoPorcoes.setBackground(Color.decode("#D3D3D3"));
-        btnLanches.setBackground(Color.decode("#D3D3D3"));
+    private void btnSairMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSairMouseClicked
+        System.exit(0);
+    }//GEN-LAST:event_btnSairMouseClicked
+
+    private void mybtn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mybtn2ActionPerformed
+        new LanchesCadastro().setVisible(true);
+    }//GEN-LAST:event_mybtn2ActionPerformed
+
+    private void mybtn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mybtn3ActionPerformed
+        new LanchesEditar().setVisible(true);
+    }//GEN-LAST:event_mybtn3ActionPerformed
+
+    private void mybtn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mybtn5ActionPerformed
+       new IngredientesCadastro().setVisible(true);
+    }//GEN-LAST:event_mybtn5ActionPerformed
+
+    private void mybtn6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mybtn6ActionPerformed
+       new IngredientesEditar().setVisible(true);
+    }//GEN-LAST:event_mybtn6ActionPerformed
+
+    private void mybtn8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mybtn8ActionPerformed
+       new FichaEntrada().setVisible(true);
+    }//GEN-LAST:event_mybtn8ActionPerformed
+
+    private void mybtn9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mybtn9ActionPerformed
+       new FichaEditar().setVisible(true);
+    }//GEN-LAST:event_mybtn9ActionPerformed
+
+    private void mybtn11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mybtn11ActionPerformed
+       new PorcoesCalcular().setVisible(true);
+    }//GEN-LAST:event_mybtn11ActionPerformed
+
+    private void mybtn12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mybtn12ActionPerformed
+        limparCalculoPorcoes();
+    }//GEN-LAST:event_mybtn12ActionPerformed
+
+    private void mybtn13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mybtn13ActionPerformed
+       new EstoqueEntrada().setVisible(true);
+    }//GEN-LAST:event_mybtn13ActionPerformed
+
+    private void mybtn14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mybtn14ActionPerformed
+       new EstoqueEditar().setVisible(true);
+    }//GEN-LAST:event_mybtn14ActionPerformed
+
+    private void buttonNovoPedidoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonNovoPedidoActionPerformed
+        buttonNovoPedido.setBackground(Color.decode("#C0C0C0"));
+        buttonVisualizarPedidos.setBackground(Color.decode("#D3D3D3"));
+
+        
+        areaNovoPedido.setVisible(true);
+        areaVisualizarPedidos.setVisible(false);
+        areaLanche.setVisible(false);
+        areaIngredientes.setVisible(false);
+        areaProdutoEstoque.setVisible(false);
+        areaEntradas.setVisible(false);
+        areaFichaTecnica.setVisible(false);
+        areaCalculoPorcoes.setVisible(false);
+    }//GEN-LAST:event_buttonNovoPedidoActionPerformed
+
+    private void buttonVisualizarPedidosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonVisualizarPedidosActionPerformed
+        buttonVisualizarPedidos.setBackground(Color.decode("#C0C0C0"));
+        buttonNovoPedido.setBackground(Color.decode("#D3D3D3"));
+        
+        btnNovoPedido.setIcon(null);
+        
+        areaNovoPedido.setVisible(false);
+        areaVisualizarPedidos.setVisible(true);
+        areaLanche.setVisible(false);
+        areaIngredientes.setVisible(false);
+        areaProdutoEstoque.setVisible(false);
+        areaEntradas.setVisible(false);
+        areaFichaTecnica.setVisible(false);
+        areaCalculoPorcoes.setVisible(false);
+    }//GEN-LAST:event_buttonVisualizarPedidosActionPerformed
+
+    private void buttonProdutosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonProdutosActionPerformed
+        buttonIngredientes.setBackground(Color.decode("#D3D3D3"));
+        buttonFichaTecnica.setBackground(Color.decode("#D3D3D3"));
+        buttonCalculoPorcoes.setBackground(Color.decode("#D3D3D3"));
+        buttonLanches.setBackground(Color.decode("#C0C0C0"));
+        
+        painelMenu1.setVisible(false);
+        painelMenu2.setVisible(true);
+        painelMenu3.setVisible(false);
+        
+        areaNovoPedido.setVisible(false);
+        areaVisualizarPedidos.setVisible(false);
+        areaLanche.setVisible(true);
+        areaIngredientes.setVisible(false);
+        areaProdutoEstoque.setVisible(false);
+        areaEntradas.setVisible(false);
+        areaFichaTecnica.setVisible(false);
+        areaCalculoPorcoes.setVisible(false);
+    }//GEN-LAST:event_buttonProdutosActionPerformed
+
+    private void buttonEstoqueActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonEstoqueActionPerformed
+        buttonEntradas.setBackground(Color.decode("#C0C0C0"));
+        buttonProdutosEstoque.setBackground(Color.decode("#D3D3D3"));
+
+        painelMenu1.setVisible(false);
+        painelMenu2.setVisible(false);
+        painelMenu3.setVisible(true);
+        
+        areaNovoPedido.setVisible(false);
+        areaVisualizarPedidos.setVisible(false);
+        areaLanche.setVisible(false);
+        areaIngredientes.setVisible(false);
+        areaProdutoEstoque.setVisible(false);
+        areaEntradas.setVisible(true);
+        areaFichaTecnica.setVisible(false);
+        areaCalculoPorcoes.setVisible(false);
+    }//GEN-LAST:event_buttonEstoqueActionPerformed
+
+    private void buttonProdutos1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonProdutos1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_buttonProdutos1ActionPerformed
+
+    private void buttonEstoque1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonEstoque1ActionPerformed
+        buttonEntradas.setBackground(Color.decode("#C0C0C0"));
+        buttonProdutosEstoque.setBackground(Color.decode("#D3D3D3"));
+        
+        painelMenu1.setVisible(false);
+        painelMenu2.setVisible(false);
+        painelMenu3.setVisible(true);
+        
+        areaNovoPedido.setVisible(false);
+        areaVisualizarPedidos.setVisible(false);
+        areaLanche.setVisible(false);
+        areaIngredientes.setVisible(false);
+        areaProdutoEstoque.setVisible(false);
+        areaEntradas.setVisible(true);
+        areaFichaTecnica.setVisible(false);
+        areaCalculoPorcoes.setVisible(false);
+    }//GEN-LAST:event_buttonEstoque1ActionPerformed
+
+    private void buttonLanchesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonLanchesActionPerformed
+        buttonIngredientes.setBackground(Color.decode("#D3D3D3"));
+        buttonFichaTecnica.setBackground(Color.decode("#D3D3D3"));
+        buttonCalculoPorcoes.setBackground(Color.decode("#D3D3D3"));
+        buttonLanches.setBackground(Color.decode("#C0C0C0"));
+        
+        areaNovoPedido.setVisible(false);
+        areaVisualizarPedidos.setVisible(false);
+        areaLanche.setVisible(true);
+        areaIngredientes.setVisible(false);
+        areaProdutoEstoque.setVisible(false);
+        areaEntradas.setVisible(false);
+        areaFichaTecnica.setVisible(false);
+        areaCalculoPorcoes.setVisible(false);
+    }//GEN-LAST:event_buttonLanchesActionPerformed
+
+    private void buttonIngredientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonIngredientesActionPerformed
+        buttonIngredientes.setBackground(Color.decode("#C0C0C0"));
+        buttonFichaTecnica.setBackground(Color.decode("#D3D3D3"));
+        buttonCalculoPorcoes.setBackground(Color.decode("#D3D3D3"));
+        buttonLanches.setBackground(Color.decode("#D3D3D3"));
+        
+        areaNovoPedido.setVisible(false);
+        areaVisualizarPedidos.setVisible(false);
+        areaLanche.setVisible(false);
+        areaIngredientes.setVisible(true);
+        areaProdutoEstoque.setVisible(false);
+        areaEntradas.setVisible(false);
+        areaFichaTecnica.setVisible(false);
+        areaCalculoPorcoes.setVisible(false);
+    }//GEN-LAST:event_buttonIngredientesActionPerformed
+
+    private void buttonFichaTecnicaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonFichaTecnicaActionPerformed
+        buttonIngredientes.setBackground(Color.decode("#D3D3D3"));
+        buttonFichaTecnica.setBackground(Color.decode("#C0C0C0"));
+        buttonCalculoPorcoes.setBackground(Color.decode("#D3D3D3"));
+        buttonLanches.setBackground(Color.decode("#D3D3D3"));
         
         areaNovoPedido.setVisible(false);
         areaVisualizarPedidos.setVisible(false);
@@ -2275,14 +2222,13 @@ AnimationClass ac = new AnimationClass();
         areaEntradas.setVisible(false);
         areaFichaTecnica.setVisible(true);
         areaCalculoPorcoes.setVisible(false);
+    }//GEN-LAST:event_buttonFichaTecnicaActionPerformed
 
-    }//GEN-LAST:event_btnFichaTecnicaActionPerformed
-
-    private void btnCalculoPorcoesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalculoPorcoesActionPerformed
-        btnIngredientes.setBackground(Color.decode("#D3D3D3"));
-        btnFichaTecnica.setBackground(Color.decode("#D3D3D3"));
-        btnCalculoPorcoes.setBackground(Color.decode("#C0C0C0"));
-        btnLanches.setBackground(Color.decode("#D3D3D3"));
+    private void buttonCalculoPorcoesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonCalculoPorcoesActionPerformed
+        buttonIngredientes.setBackground(Color.decode("#D3D3D3"));
+        buttonFichaTecnica.setBackground(Color.decode("#D3D3D3"));
+        buttonCalculoPorcoes.setBackground(Color.decode("#C0C0C0"));
+        buttonLanches.setBackground(Color.decode("#D3D3D3"));
         
         
         areaNovoPedido.setVisible(false);
@@ -2293,12 +2239,29 @@ AnimationClass ac = new AnimationClass();
         areaEntradas.setVisible(false);
         areaFichaTecnica.setVisible(false);
         areaCalculoPorcoes.setVisible(true);
-        
-    }//GEN-LAST:event_btnCalculoPorcoesActionPerformed
+    }//GEN-LAST:event_buttonCalculoPorcoesActionPerformed
 
-    private void btnPedidos3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPedidos3ActionPerformed
-        btnNovoPedido.setBackground(Color.decode("#C0C0C0"));
-        btnVisualizarPedidos.setBackground(Color.decode("#D3D3D3"));
+    private void buttonPedidos1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonPedidos1ActionPerformed
+        buttonNovoPedido.setBackground(Color.decode("#C0C0C0"));
+        buttonVisualizarPedidos.setBackground(Color.decode("#D3D3D3"));
+        
+        painelMenu1.setVisible(true);
+        painelMenu2.setVisible(false);
+        painelMenu3.setVisible(false);
+
+        areaNovoPedido.setVisible(true);
+        areaVisualizarPedidos.setVisible(false);
+        areaLanche.setVisible(false);
+        areaIngredientes.setVisible(false);
+        areaProdutoEstoque.setVisible(false);
+        areaEntradas.setVisible(false);
+        areaFichaTecnica.setVisible(false);
+        areaCalculoPorcoes.setVisible(false);
+    }//GEN-LAST:event_buttonPedidos1ActionPerformed
+
+    private void buttonPedidos3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonPedidos3ActionPerformed
+        buttonNovoPedido.setBackground(Color.decode("#C0C0C0"));
+        buttonVisualizarPedidos.setBackground(Color.decode("#D3D3D3"));
         
         painelMenu1.setVisible(true);
         painelMenu2.setVisible(false);
@@ -2312,48 +2275,17 @@ AnimationClass ac = new AnimationClass();
         areaEntradas.setVisible(false);
         areaFichaTecnica.setVisible(false);
         areaCalculoPorcoes.setVisible(false);
-    }//GEN-LAST:event_btnPedidos3ActionPerformed
+    }//GEN-LAST:event_buttonPedidos3ActionPerformed
 
-    private void btnEntradasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEntradasActionPerformed
-        btnProdutosEstoque.setBackground(Color.decode("#D3D3D3"));
-        btnEntradas.setBackground(Color.decode("#C0C0C0"));
-        
-        areaNovoPedido.setVisible(false);
-        areaVisualizarPedidos.setVisible(false);
-        areaLanche.setVisible(false);
-        areaIngredientes.setVisible(false);
-        areaProdutoEstoque.setVisible(false);
-        areaEntradas.setVisible(true);
-        areaFichaTecnica.setVisible(false);
-        areaCalculoPorcoes.setVisible(false);
-    }//GEN-LAST:event_btnEntradasActionPerformed
-
-    private void btnProdutosEstoqueActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProdutosEstoqueActionPerformed
-        btnProdutosEstoque.setBackground(Color.decode("#C0C0C0"));
-        btnEntradas.setBackground(Color.decode("#D3D3D3"));
-        
-        areaNovoPedido.setVisible(false);
-        areaVisualizarPedidos.setVisible(false);
-        areaLanche.setVisible(false);
-        areaIngredientes.setVisible(false);
-        areaProdutoEstoque.setVisible(true);
-        areaEntradas.setVisible(false);
-        areaFichaTecnica.setVisible(false);
-        areaCalculoPorcoes.setVisible(false);
-        
-    }//GEN-LAST:event_btnProdutosEstoqueActionPerformed
-
-    private void btnProdutos3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProdutos3ActionPerformed
-        btnIngredientes.setBackground(Color.decode("#D3D3D3"));
-        btnFichaTecnica.setBackground(Color.decode("#D3D3D3"));
-        btnCalculoPorcoes.setBackground(Color.decode("#D3D3D3"));
-        btnLanches.setBackground(Color.decode("#C0C0C0"));
+    private void buttonProdutos3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonProdutos3ActionPerformed
+        buttonIngredientes.setBackground(Color.decode("#D3D3D3"));
+        buttonFichaTecnica.setBackground(Color.decode("#D3D3D3"));
+        buttonCalculoPorcoes.setBackground(Color.decode("#D3D3D3"));
+        buttonLanches.setBackground(Color.decode("#C0C0C0"));
         
         painelMenu1.setVisible(false);
         painelMenu2.setVisible(true);
         painelMenu3.setVisible(false);
-        
-
         
         areaNovoPedido.setVisible(false);
         areaVisualizarPedidos.setVisible(false);
@@ -2363,55 +2295,39 @@ AnimationClass ac = new AnimationClass();
         areaEntradas.setVisible(false);
         areaFichaTecnica.setVisible(false);
         areaCalculoPorcoes.setVisible(false);
-    }//GEN-LAST:event_btnProdutos3ActionPerformed
+    }//GEN-LAST:event_buttonProdutos3ActionPerformed
 
-    private void btnEstoque3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEstoque3ActionPerformed
+    private void buttonEstoque3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonEstoque3ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_btnEstoque3ActionPerformed
+    }//GEN-LAST:event_buttonEstoque3ActionPerformed
 
-    private void btnSairMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSairMouseClicked
-        System.exit(0);
-    }//GEN-LAST:event_btnSairMouseClicked
+    private void buttonEntradasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonEntradasActionPerformed
+        buttonProdutosEstoque.setBackground(Color.decode("#D3D3D3"));
+        buttonEntradas.setBackground(Color.decode("#C0C0C0"));
+        
+        areaNovoPedido.setVisible(false);
+        areaVisualizarPedidos.setVisible(false);
+        areaLanche.setVisible(false);
+        areaIngredientes.setVisible(false);
+        areaProdutoEstoque.setVisible(false);
+        areaEntradas.setVisible(true);
+        areaFichaTecnica.setVisible(false);
+        areaCalculoPorcoes.setVisible(false);
+    }//GEN-LAST:event_buttonEntradasActionPerformed
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        new LanchesCadastro().setVisible(true);
-    }//GEN-LAST:event_jButton4ActionPerformed
-
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        new LanchesEditar().setVisible(true);
-    }//GEN-LAST:event_jButton5ActionPerformed
-
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        new IngredientesCadastro().setVisible(true);
-    }//GEN-LAST:event_jButton8ActionPerformed
-
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-        new IngredientesEditar().setVisible(true);
-    }//GEN-LAST:event_jButton9ActionPerformed
-
-    private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
-        new FichaEntrada().setVisible(true);
-    }//GEN-LAST:event_jButton24ActionPerformed
-
-    private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
-        new FichaEditar().setVisible(true);
-    }//GEN-LAST:event_jButton25ActionPerformed
-
-    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
-        new PorcoesCalcular().setVisible(true);
-    }//GEN-LAST:event_jButton21ActionPerformed
-
-    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton20ActionPerformed
-
-    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
-        new EstoqueEntrada().setVisible(true);
-    }//GEN-LAST:event_jButton16ActionPerformed
-
-    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
-        new EstoqueEditar().setVisible(true);
-    }//GEN-LAST:event_jButton17ActionPerformed
+    private void buttonProdutosEstoqueActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonProdutosEstoqueActionPerformed
+        buttonProdutosEstoque.setBackground(Color.decode("#C0C0C0"));
+        buttonEntradas.setBackground(Color.decode("#D3D3D3"));
+        
+        areaNovoPedido.setVisible(false);
+        areaVisualizarPedidos.setVisible(false);
+        areaLanche.setVisible(false);
+        areaIngredientes.setVisible(false);
+        areaProdutoEstoque.setVisible(true);
+        areaEntradas.setVisible(false);
+        areaFichaTecnica.setVisible(false);
+        areaCalculoPorcoes.setVisible(false);
+    }//GEN-LAST:event_buttonProdutosEstoqueActionPerformed
 
     /**
      * @param args the command line arguments
@@ -2459,24 +2375,28 @@ AnimationClass ac = new AnimationClass();
     private javax.swing.JInternalFrame areaProdutoEstoque;
     private javax.swing.JInternalFrame areaVisualizarPedidos;
     private javax.swing.JPanel bordaPainel;
-    private javax.swing.JButton btnCalculoPorcoes;
-    private javax.swing.JButton btnEntradas;
     private javax.swing.JButton btnEstoque1;
-    private javax.swing.JButton btnEstoque2;
-    private javax.swing.JButton btnEstoque3;
-    private javax.swing.JButton btnFichaTecnica;
-    private javax.swing.JButton btnIngredientes;
-    private javax.swing.JButton btnLanches;
     private javax.swing.JButton btnNovoPedido;
-    private javax.swing.JButton btnPedidos1;
-    private javax.swing.JButton btnPedidos2;
-    private javax.swing.JButton btnPedidos3;
     private javax.swing.JButton btnProdutos1;
-    private javax.swing.JButton btnProdutos2;
-    private javax.swing.JButton btnProdutos3;
-    private javax.swing.JButton btnProdutosEstoque;
     private javax.swing.JLabel btnSair;
     private javax.swing.JButton btnVisualizarPedidos;
+    private styles.MybtnMenu2 buttonCalculoPorcoes;
+    private styles.MybtnMenu2 buttonEntradas;
+    private styles.MybtnMenu buttonEstoque;
+    private styles.MybtnMenu buttonEstoque1;
+    private styles.MybtnMenu buttonEstoque3;
+    private styles.MybtnMenu2 buttonFichaTecnica;
+    private styles.MybtnMenu2 buttonIngredientes;
+    private styles.MybtnMenu2 buttonLanches;
+    private styles.MybtnMenu2 buttonNovoPedido;
+    private styles.MybtnMenu buttonPedidos;
+    private styles.MybtnMenu buttonPedidos1;
+    private styles.MybtnMenu buttonPedidos3;
+    private styles.MybtnMenu buttonProdutos;
+    private styles.MybtnMenu buttonProdutos1;
+    private styles.MybtnMenu buttonProdutos3;
+    private styles.MybtnMenu2 buttonProdutosEstoque;
+    private styles.MybtnMenu2 buttonVisualizarPedidos;
     private javax.swing.JPanel colorBtn1;
     private javax.swing.JPanel colorBtn15;
     private javax.swing.JPanel colorBtn16;
@@ -2497,27 +2417,6 @@ AnimationClass ac = new AnimationClass();
     private javax.swing.JPanel fotoVP1;
     private javax.swing.JPanel fotoVP2;
     private javax.swing.JPanel fotoVP3;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton15;
-    private javax.swing.JButton jButton16;
-    private javax.swing.JButton jButton17;
-    private javax.swing.JButton jButton18;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton20;
-    private javax.swing.JButton jButton21;
-    private javax.swing.JButton jButton23;
-    private javax.swing.JButton jButton24;
-    private javax.swing.JButton jButton25;
-    private javax.swing.JButton jButton26;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -2635,6 +2534,27 @@ AnimationClass ac = new AnimationClass();
     private javax.swing.JLabel logo1;
     private javax.swing.JLabel logo2;
     private javax.swing.JLabel logo3;
+    private styles.Mybtn mybtn1;
+    private styles.Mybtn mybtn10;
+    private styles.Mybtn mybtn11;
+    private styles.Mybtn mybtn12;
+    private styles.Mybtn mybtn13;
+    private styles.Mybtn mybtn14;
+    private styles.Mybtn mybtn15;
+    private styles.Mybtn mybtn2;
+    private styles.Mybtn2 mybtn21;
+    private styles.Mybtn2 mybtn22;
+    private styles.Mybtn2 mybtn23;
+    private styles.Mybtn2 mybtn24;
+    private styles.Mybtn2 mybtn25;
+    private styles.Mybtn2 mybtn26;
+    private styles.Mybtn mybtn3;
+    private styles.Mybtn mybtn4;
+    private styles.Mybtn mybtn5;
+    private styles.Mybtn mybtn6;
+    private styles.Mybtn mybtn7;
+    private styles.Mybtn mybtn8;
+    private styles.Mybtn mybtn9;
     private javax.swing.JPanel painelMenu1;
     private javax.swing.JPanel painelMenu2;
     private javax.swing.JPanel painelMenu3;
